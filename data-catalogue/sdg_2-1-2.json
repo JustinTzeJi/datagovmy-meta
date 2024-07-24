@@ -1,16 +1,16 @@
 {
-    "title_en": "SDG 2.1.2: Prevalence of moderate or severe food insecurity in the population",
-    "title_ms": "SDG 2.1.2: Prevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk",
+    "title_en": "SDG 2.1.2: Annual Prevalence of Moderate or Severe Food Insecurity in Population, broken down by Sex",
+    "title_ms": "SDG 2.1.2: Prevalens Tahunan Tiada jaminan Makanan yang Sederhana atau Teruk dalam kalangan Penduduk, dengan pecahan mengikut Jantina",
     "title_sort": 1,
-    "description_en": "The indicator measures the prevalence of food insecurity at household, adult and child levels based on the Food Insecurity Experience Scale (FIES)",
-    "description_ms": "Penunjuk ini mengukur prevalens tiada jaminan makanan di peringkat isi rumah, dewasa dan kanak-kanak berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale , FIES)",
+    "description_en": "Target 2.1: By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.\nPrevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES).",
+    "description_ms": "Target 2.1: Menjelang 2030, menamatkan kelaparan dan memastikan semua pihak mendapat akses kepada makanan selamat, berkhasiat dan mencukupi sepanjang tahun, khususnya golongan miskin dan mereka yang dalam situasi berisiko, termasuk bayi.\nPrevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk, berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale, FIES).",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
-    "last_updated": "2024-07-23 00:00",
+    "last_updated": "2024-07-24 00:00",
     "next_update": "\u2014",
-    "methodology_en": "Data is collected from National Health and Morbidity Survey Report, 2014, Ministry of Health Malaysia.",
-    "methodology_ms": "Data dikumpulkan melalui Laporan Tinjauan Kebangsaan Kesihatan dan Morbiditi, 2014, Kementerian Kesihatan Malaysia",
+    "methodology_en": "Data sourced from National Health and Morbidity Survey Report, 2014, Ministry of Health Malaysia.",
+    "methodology_ms": "Sumber data dari Laporan Tinjauan Kebangsaan Kesihatan dan Morbiditi, 2014, Kementerian Kesihatan Malaysia",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -21,7 +21,10 @@
     "geography": [
         "NATIONAL"
     ],
-    "demography": ["SEX"],
+    "demography": [
+        "SEX",
+        "AGE"
+    ],
     "dataset_begin": 2016,
     "dataset_end": 2021,
     "data_source": [
@@ -57,11 +60,11 @@
             "description_ms": "[Kategori] Sama ada lelaki ('Male') atau perempuan ('Female')"
         },
         {
-            "name": "indicator",
-            "title_en": "Indicator",
-            "title_ms": "Penunjuk",
-            "description_en": "[Categorical] The title of the SDG indicator",
-            "description_ms": "[Kategori] Tajuk penunjuk SDG"
+            "name": "food_insecurity_severity",
+            "title_en": "Food Insecurity Severity",
+            "title_ms": "Tahap Ketidakjaminan Makanan",
+            "description_en": "[Categorical] Either moderate or severe ('moderate or severe') or severe ('severe')",
+            "description_ms": "[Kategori] Sama ada sederhana atau teruk ('moderate or severe') atau teruk ('severe')"
         },
         {
             "name": "date",
@@ -74,18 +77,29 @@
             "name": "age",
             "title_en": "Age Group",
             "title_ms": "Kumpulan Umur",
-            "description_en": "[Categorical] Age groups categorized by years, such as '15 years and above'",
-            "description_ms": "[Kategori] Kumpulan umur yang dikategorikan mengikut tahun, seperti '15 tahun dan ke atas'"
+            "description_en": "[Categorical] Age group of the population",
+            "description_ms": "[Kategori] Kumpulan umur penduduk"
         },
         {
             "name": "percentage",
             "title_en": "Percentage (%)",
             "title_ms": "Peratusan (%)",
-            "description_en": "[Float] The proportion of the indicator group as a percentage of the overall population",
-            "description_ms": "[Apung] Perkadaran kumpulan indikator sebagai peratusan daripada keseluruhan populasi."
+            "description_en": "[Float] The proportion of the population that experiences moderate or severe food insecurity",
+            "description_ms": "[Apung] Peratusan penduduk tertentu yang mengalami ketidakjaminan makanan yang sederhana atau teruk"
         }
     ],
     "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
     ],
     "translations_en": {
         "sex": "Sex",

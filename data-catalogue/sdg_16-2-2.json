@@ -1,16 +1,16 @@
 {
-    "title_en": "SDG 16.2.2: Annual Number of Victims of Human Trafficking break down by Sex, Age and Form of Exploitation",
-    "title_ms": "SDG 16.2.2: Jumlah Tahunan Mangsa Pemerdagangan Manusia mengikut Jantina, Umur dan Bentuk Eksploitasi",
+    "title_en": "SDG 16.2.2: Annual Number of Victims of Human Trafficking break down by Sex, Age & Form of Exploitation",
+    "title_ms": "SDG 16.2.2: Jumlah Tahunan Mangsa Pemerdagangan Manusia mengikut Jantina, Umur & Bentuk Eksploitasi",
     "title_sort": 1,
-    "description_en": "Annual number of victims of human trafficking in persons detected divided by the total population, expressed per 100,000 population. The data can be broken down by sex, age group, and form of exploitation.",
-    "description_ms": "Jumlah tahunan mangsa pemerdagangan manusia yang dikesan dibahagikan dengan jumlah penduduk, dinyatakan per 100,000 penduduk. Data boleh dipecahkan mengikut jantina, kumpulan umur, dan bentuk eksploitasi.",
+    "description_en": "Target 16.2: End abuse, exploitation, trafficking and all forms of violence against and torture of children.\nAnnual number of victims of human trafficking in persons detected divided by the total population, expressed per 100,000 population. The data can be broken down by sex, age group, and form of exploitation.",
+    "description_ms": "Sasaran 16.2: Mengakhiri penderaan, eksploitasi, penyeludupan dan semua bentuk keganasan dan penganiayaan terhadap kanak-kanak.\nJumlah tahunan mangsa pemerdagangan manusia yang dikesan dibahagikan dengan jumlah penduduk, dinyatakan per 100,000 penduduk. Data boleh dipecahkan mengikut jantina, kumpulan umur, dan bentuk eksploitasi.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
     "last_updated": "2024-07-24 00:00",
     "next_update": "\u2014",
-    "methodology_en": "Data is sourced from Ministry of Women, Family and Community Development, and Ministry of Foreign Affairs",
-    "methodology_ms": "Sumber data dari Kementerian Pembangunan Wanita, Keluarga dan Masyarakat, dan Kementerian Luar Negeri Malaysia",
+    "methodology_en": "Data sourced from Ministry of Women, Family and Community Development, and Ministry of Foreign Affairs",
+    "methodology_ms": "Sumber data Kementerian Pembangunan Wanita, Keluarga dan Masyarakat, dan Kementerian Luar Negeri Malaysia",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -62,8 +62,8 @@
         {  "name": "exploitation_type",
             "title_en": "Form of Exploitation",
             "title_ms": "Bentuk Eksploitasi",
-            "description_en": "[Categorical] The form of human trafficking exploitation. Either forced labour, servitude and slavery ('Forced labour, servitude and slavery exploitation'), sexual ('Sexual exploitation'), or overall form of exploitation ('Overall')",
-            "description_ms": "[Kategori] Bentuk eksploitasi pemerdagangan manusia. Sama ada buruh paksa, pengabdian, dan perhambaan ('Forced labour, servitude and slavery exploitation'), seksual ('Sexual exploitation'), atau keseluruhan bentuk eksploitasi ('Overall')"
+            "description_en": "[Categorical] The form of human trafficking exploitation. Either forced labour, servitude and slavery ('Forced labour, servitude and slavery exploitation'), sexual ('Sexual exploitation'), or overall category that encompasses of all forms of exploitation ('Overall')",
+            "description_ms": "[Kategori] Bentuk eksploitasi pemerdagangan manusia. Sama ada buruh paksa, pengabdian, dan perhambaan ('Forced labour, servitude and slavery exploitation'), seksual ('Sexual exploitation'), atau kategori keseluruhan yang merangkumi semua bentuk eksploitasi ('Overall')"
         },
         {
             "name": "sex",

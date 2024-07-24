@@ -1,23 +1,23 @@
 {
-    "title_en": "SDG 13.2.2: Total greenhouse gas emissions per year",
-    "title_ms": "SDG 13.2.2: Jumlah pelepasan gas rumah hijau setiap tahun",
+    "title_en": "SDG 13.2.2: Annual Total of Greenhouse Gas Emissions",
+    "title_ms": "SDG 13.2.2: Jumlah Tahunan Pelepasan Gas Rumah Hijau",
     "title_sort": 1,
-    "description_en": "The indicator measures total greenhouse gas (GHG) emissions per year",
-    "description_ms": "Penunjuk ini mengukur jumlah pelepasan gas rumah hijau (GHG) setiap tahun",
+    "description_en": "Target 13.2: Integrate climate change measures into national policies, strategies and planning.\nThe indicator measures the total greenhouse gas (GHG) emissions per year",
+    "description_ms": "Sasaran 13.2: Menyepadukan ukuran perubahan iklim ke dalam dasar, strategi dan pelan negara.\nPenunjuk ini mengukur jumlah pelepasan gas rumah hijau (GHG) setiap tahun",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2019",
-    "last_updated": "2024-07-23 00:00",
+    "last_updated": "2024-07-24 00:00",
     "next_update": "\u2014",
-    "methodology_en": "Data is collected from Ministry of Environment and Water",
-    "methodology_ms": "Data dikumpul dari Kementerian Alam Sekitar dan Air",
+    "methodology_en": "Data sourced from Ministry of Environment and Water",
+    "methodology_ms": "Sumber data dari Kementerian Alam Sekitar dan Air",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_13-2-2.parquet",
     "link_csv": "https://storage.dosm.gov.my/sdg/sdg_13-2-2.csv",
-    "frequency": "ANNUAL",
+    "frequency": "YEARLY",
     "geography": [
         "NATIONAL"
     ],
@@ -56,22 +56,33 @@
             "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
         },
         {
-            "name": "unit",
-            "title_en": "Unit",
-            "title_ms": "Unit",
-            "description_en": "[Float] Total greenhouse gas emissions (million metric tons)",
-            "description_ms": "[Apung] Jumlah pelepasan gas rumah kaca (juta tan metrik)"
+            "name": "total",
+            "title_en": "Total Metric Tons (million)",
+            "title_ms": "Jumlah Metrik Tan (juta)",
+            "description_en": "[Float] Total greenhouse gas emissions measured in million metric tons",
+            "description_ms": "[Apung] Jumlah pelepasan gas rumah hijau yang diukur dalam juta metrik tan"
         }
     ],
     "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
     ],
     "translations_en": {
         "date": "Date",
-        "unit": "Metric tons (million)"
+        "total": "Total Metric tons (million)"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "unit": "Tan metrik (juta)"
+        "total": "Jumlah Metrik Tan (juta)"
     },
     "related_datasets": []
 }
