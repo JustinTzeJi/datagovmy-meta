@@ -1,0 +1,97 @@
+{
+    "title_en": "SDG 17.8.1: Proportion of Individuals using the Internet break down by State and District",
+    "title_ms": "SDG 17.8.1: Peratusan Individu yang menggunakan Internet mengikut Negeri dan Daerah",
+    "title_sort": 1,
+    "description_en": "Proportion of individuals using the Internet break down by state and district.",
+    "description_ms": "Peratusan individu yang menggunakan Internet mengikut negeri dan daerah",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-24 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data is sourced from ICT Use and Access by Individuals and Households Survey, DOSM",
+    "methodology_ms": "Data dikumpulkan melalui Survei Penggunaan & Capaian ICT oleh Individu dan Isi Rumah, DOSM",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_17-8-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_17-8-1.csv",
+    "frequency": "TRIANNUAL",
+    "geography": [
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2019,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG"
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories in Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan di Malaysia"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of the districts in the states or federal territories in Malaysia",
+            "description_ms": "[Kategori] Salah satu daerah di negeri atau wilayah persekutuan di Malaysia"
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The percentage of the district's population that uses the internet",
+            "description_ms": "[Apung] Peratusan penduduk daerah yang menggunakan internet"
+        }
+    ],
+    "dataviz": [
+    ],
+    "translations_en": {
+        "state": "State",
+        "district": "District",
+        "date": "Date",
+        "percentage": "Percentage"
+    },
+    "translations_ms": {
+        "state": "Negeri",
+        "district": "Daerah",
+        "date": "Tarikh",
+        "percentage": "Peratusan"
+    },
+    "related_datasets": []
+}
