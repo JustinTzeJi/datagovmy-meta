@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 5.5.2 : Proportion of women in managerial positions",
-    "title_ms": "SDG 5.5.2 : Peratusan wanita dalam jawatan pengurusan",
+    "title_en": "SDG 5.5.2: Proportion of Women in Managerial Positions by State",
+    "title_ms": "SDG 5.5.2: Peratusan Wanita dalam Jawatan Pengurusan mengikut Negeri",
     "title_sort": 9,
     "description_en": "Proportion of women in managerial positions, by state",
     "description_ms": "Peratusan wanita dalam jawatan pengurusan mengikut negeri",
@@ -22,7 +22,9 @@
         "NATIONAL",
         "STATE"
     ],
-    "demography": ["SEX"],
+    "demography": [
+        "SEX"
+    ],
     "dataset_begin": 2016,
     "dataset_end": 2022,
     "data_source": [
