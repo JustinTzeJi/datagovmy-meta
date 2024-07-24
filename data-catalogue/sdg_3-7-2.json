@@ -1,8 +1,8 @@
 {
-    "title_en": "SDG 3.7.2 : Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",
-    "title_ms": "SDG 3.7.2 : Kadar kelahiran remaja (berumur 10-14 tahun; berumur 15-19 tahun) bagi setiap 1,000 wanita dalam kumpulan umur berkenaan",
+    "title_en": "SDG 3.7.2: Annual Adolescent Birth Rate (Aged 10-14 Years; Aged 15-19 Years) per 1,000 Women in that Age Group by State",
+    "title_ms": "SDG 3.7.2: Kadar Kelahiran Remaja (Berumur 10-14 Tahun; Berumur 15-19 Tahun) bagi setiap 1,000 Wanita dalam Kumpulan Umur Berkenaan mengikut Negeri",
     "title_sort": 5,
-    "description_en": "Annual adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group, by state",
+    "description_en": "Annual adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group by state",
     "description_ms": "Kadar kelahiran tahunan remaja (berumur 10-14 tahun; berumur 15-19 tahun) bagi setiap 1,000 wanita dalam kumpulan umur berkenaan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 01:51:00",
@@ -22,7 +22,9 @@
         "NATIONAL",
         "STATE"
     ],
-    "demography": ["AGE"],
+    "demography": [
+        "AGE"
+    ],
     "dataset_begin": 2016,
     "dataset_end": 2022,
     "data_source": [

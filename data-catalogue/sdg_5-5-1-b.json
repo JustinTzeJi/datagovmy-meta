@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 5.5.1(b) : Proportion of seats held by women in local governments",
-    "title_ms": "SDG 5.5.1(b) : Peratusan kerusi yang disandang oleh wanita dalam kerajaan tempatan",
+    "title_en": "SDG 5.5.1(b): Proportion of Seats Held by Women in Local Governments",
+    "title_ms": "SDG 5.5.1(b): Peratusan Kerusi yang Disandang oleh Wanita dalam Kerajaan Tempatan",
     "title_sort": 7,
     "description_en": "Annual propotion of seats held by both sexes in local governments",
     "description_ms": "Peratusan kerusi tahunan yang disandang oleh kedua-dua jantina dalam kerajaan tempatan mengikut jantina",
@@ -21,7 +21,9 @@
     "geography": [
         "NATIONAL"
     ],
-    "demography": ["SEX"],
+    "demography": [
+        "SEX"
+    ],
     "dataset_begin": 2019,
     "dataset_end": 2022,
     "data_source": [
