@@ -61,8 +61,8 @@
             "name": "district",
             "title_en": "District",
             "title_ms": "Daerah",
-            "description_en": "[Categorical] Either all districts within the state ('Overall') or one of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
-            "description_ms": "[Kategori] Sama ada semua daerah dalam negeri ('Overall') atau satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+            "description_en": "[Categorical] All districts within the state ('Overall') or one of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+            "description_ms": "[Kategori] Semua daerah dalam negeri ('Overall') atau satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
           },
                 {
             "name": "date",
