@@ -1,0 +1,110 @@
+{
+    "title_en": "SDG 8.5.2: Unemployment Rate by Age Group & Sex",
+    "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Kumpulan Umur & Jantina",
+    "title_sort": 7,
+    "description_en": "Annual unemployment rate, broken down by age group and sex",
+    "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut kumpulan umur dan jantina",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/sdg/sdg_8-5-2-b.parquet",
+    "link_csv": "https://storage.dosm.gov.my/sdg/sdg_8-5-2-b.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "SDG Indicators",
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
+        }
+    ],
+    "fields": [
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Either all age groups ('overall') or ten-year age groups e.g. 15-24, 25-34, 35-44, etc. 55-64 is the oldest category",
+            "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall') atau kumpulan umur dengan julat 10 tahun, contohnya 15-24, 25-34, 35-44, dsb. 55-64 adalah kumpulan yang tertua"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+          },
+                {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "rate",
+            "title_en": "Unemployment Rate",
+            "title_ms": "Kadar Pengangguran",
+            "description_en": "[Float] Unemployment rate, expressed as percentage (%)",
+            "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [
+                    "state"
+                ],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "age": "Age Group",
+        "sex": "Sex",
+        "date": "Date",
+        "rate": "Unemployment Rate (%)"
+    },
+    "translations_ms": {
+        "age": "Kumpulan Umur",
+        "sex": "Jantina",
+        "date": "Tarikh",
+        "rate": "Kadar Pengangguran (%)"
+    },
+    "related_datasets": []
+}
