@@ -1,0 +1,97 @@
+{
+    "title_en": "MysIDC 13.8.3: Number of Non-Muslim Women Aged 20-24 Years Old and Married Before 18 Years",
+    "title_ms": "MysIDC 13.8.3: Bilangan Wanita Bukan Islam yang Berumur 20-24 Tahun dan Berkahwin Sebelum Umur 18 Tahun",
+    "title_sort": 11,
+    "description_en": "Annual number of non-muslim Women aged 20-24 years old and married before 18 years",
+    "description_ms": "Bilangan tahunan wanita bukan Islam yang berumur 20-24 tahun dan berkahwin sebelum umur 18 tahun",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_13-8-3.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-8-3.csv",
+    "frequency": "YEARLY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2014,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM",
+        "JPN"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "age",
+            "title_en": "Age (current year)",
+            "title_ms": "Umur (tahun semasa)",
+            "description_en": "[Integer] Age of women between 20 to 24 in current year",
+            "description_ms": "[Integer] Umur wanita antara 20 ke 24 pada tahun semasa"
+        },
+        {
+            "name": "value",
+            "title_en": "Number of Women",
+            "title_ms": "Bilangan Wanita",
+            "description_en": "[Integer] Number of women",
+            "description_ms": "[Integer] Bilangan wanita"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "age": "Age (current year)",
+        "value": "Number of Women"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "age": "Umur (tahun semasa)",
+        "value": "Bilangan Wanita"
+    },
+    "related_datasets": []
+}

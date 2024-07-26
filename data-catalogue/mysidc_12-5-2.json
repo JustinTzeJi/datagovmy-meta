@@ -1,0 +1,119 @@
+{
+    "title_en": "MysIDC 12.5.2: Number of Graduates by Age Group & Sex",
+    "title_ms": "MysIDC 12.5.2: Bilangan Siswazah mengikut Kumpulan Umur dan Jantina",
+    "title_sort": 8,
+    "description_en": "Total number graduates by age group, education level and sex ",
+    "description_ms": "Jumlah bilangan siwazah mengikut kumpulan umur, peringkat pendidikan dan jantina",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_12-5-2.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_12-5-2.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [
+        "SEX"
+    ],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM",
+        "MOE"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "age",
+            "title_en": "Age Group",
+            "title_ms": "Kumpulan Umur",
+            "description_en": "[Categorical] Either age 24 and below ('0-24') or ten-year age groups ('25-34', '35-44'). 45+ is the oldest category.",
+            "description_ms": "[Kategori] Sama ada kumpulan umur 24 tahun ke bawah ('0-24') atau kumpulan umur dengan julat 10 tahun ('25-34', '35-44'). 45+ adalah kumpulan yang tertua."
+        },
+        {
+            "name": "graduates",
+            "title_en": "Number of Graduates ('000)",
+            "title_ms": "Bilangan Siswazah ('000)",
+            "description_en": "[Integer] Thousands of Graduates ('000 graduates)",
+            "description_ms": "[Integer] Ribuan Siswazah ('000 siswazah)"
+        },
+        {
+            "name": "status",
+            "title_en": "Status",
+            "title_ms": "Status",
+            "description_en": "[Categorical] Status of data, either estimated ('e') or preliminary ('p)",
+            "description_ms": "[Kategori] Status data, sama ada anggaran ('e') ataupun awal ('p')."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "sex": "Sex",
+        "age": "Age",
+        "graduates": "Number of Graduates ('000)",
+        "status": "Status"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "sex": "Jantina",
+        "age": "Umur",
+        "graduates": "Bilangan Siswazah ('000)",
+        "status": "Bilangan Siswazah ('000)"
+    },
+    "related_datasets": []
+}

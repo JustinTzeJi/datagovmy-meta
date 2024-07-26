@@ -1,0 +1,108 @@
+{
+	"title_en": "MysIDC 8.4.7: Fertility Rate by Age Group & State",
+	"title_ms": "MysIDC 8.4.7: Kadar Kesuburan mengikut Kumpulan Umur & Negeri",
+	"title_sort": 20,
+	"description_en": "Annual fertility rate by age group and state",
+	"description_ms": "Kadar kesuburan tahunan mengikut kumpulan umur dan negeri",
+	"exclude_openapi": false,
+	"manual_trigger": "",
+	"data_as_of": "2022",
+	"last_updated": "2024-07-25 00:00",
+	"next_update": "",
+	"methodology_en": "",
+	"methodology_ms": "",
+	"caveat_en": "\u2014",
+	"caveat_ms": "\u2014",
+	"publication_en": "\u2014",
+	"publication_ms": "\u2014",
+	"link_parquet": "https://storage.dosm.gov.my/odin/mysidc_8-4-7.parquet",
+	"link_csv": "https://storage.dosm.gov.my/odin/mysidc_8-4-7.csv",
+	"frequency": "YEARLY",
+	"geography": [
+		"NATIONAL",
+		"STATE"
+	],
+	"demography": [],
+	"dataset_begin": 2001,
+	"dataset_end": 2022,
+	"data_source": [
+		"DOSM"
+	],
+	"data_source_granular": [],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+		{
+			"name": "state",
+			"title_en": "State",
+			"title_ms": "Negeri",
+			"description_en": "[Categorical] One of 16 states, or Malaysia",
+			"description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+		},
+		{
+			"name": "age",
+			"title_en": "Age Group",
+			"title_ms": "Kumpulan Umur",
+			"description_en": "[Categorical] Either one of 5 year age groups e.g. 15-19, 20-24, 25-29, etc. 45-49 is the oldest category, or the total fertile rate ('total')'",
+			"description_ms": "[Kategori] Satu daripada kumpulan umur dengan julat 5 tahun, contohnya 15-19, 20-24, 25-29, dsb. 45-49 adalah kumpulan tertua, atau kadar kesuburan jumlah ('total')"
+		},
+		{
+			"name": "rate",
+			"title_en": "Fertility Rate",
+			"title_ms": "Kadar Kesuburan",
+			"description_en": "[Float] Number of births per 1000 women",
+			"description_ms": "[Apung] Jumlah kelahiran bagi setiap 1000 wanita"
+		}
+	],
+	"dataviz": [
+		{
+			"dataviz_id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"config": {
+				"precision": 0,
+				"filter_columns": [],
+				"freeze_columns": []
+			}
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"state": "State",
+		"age": "Age",
+		"rate": "Fertility Rate ('000)"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"state": "Negeri",
+		"age": "Umur",
+		"rate": "Kadar Kesuburan ('000)"
+	},
+	"related_datasets": []
+}

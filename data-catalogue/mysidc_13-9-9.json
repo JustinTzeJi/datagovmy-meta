@@ -1,0 +1,118 @@
+{
+    "title_en": "MysIDC 13.9.9: Proportions of Civil Servants in Public Service by Sex and State",
+    "title_ms": "MysIDC 13.9.9: Peratusan Penjawat Awam dalam Perkhidmatan Awam mengikut Jantina dan Negeri",
+    "title_sort": 11,
+    "description_en": "Annual total number and the proportion of sex of civil servants in public service by state",
+    "description_ms": "Bilangan tahunan dan peratusan jantina penjawat awam dalam perkhidmatan awam mengikut negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_13-9-9.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-9-9.csv",
+    "frequency": "YEARLY",
+    "geography": [],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM",
+        "JPA"
+    ],
+    "data_source_granular": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of 16 states, Malaysia, or foreign country ('Luar Negara')",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, Malaysia, atau luar negara ('Luar Negara')"
+        },
+        {
+            "name": "sex",
+            "title_en": "Sex",
+            "title_ms": "Jantina",
+            "description_en": "[Categorical] Either male ('male') or female ('female')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male') atau perempuan ('female')"
+        },
+        {
+            "name": "total",
+            "title_en": "Number of Civil Servants",
+            "title_ms": "Bilangan Penjawat Awam",
+            "description_en": "[Integer] Number of civil servants",
+            "description_ms": "[Integer] Bilangan penjawat awam"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] Percentage (%) of civil servants",
+            "description_ms": "[Apung] Peratusan (%) penjawat awam"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "sex": "Sex",
+        "total": "Number of Civil Servants",
+        "percentage": "Percentage (%)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "sex": "Jantina",
+        "total": "Bilangan Penjawat Awam",
+        "percentage": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

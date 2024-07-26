@@ -1,0 +1,115 @@
+{
+    "title_en": "MysIDC 11.7: Forest Resource Development and Environmental Conservation / Rehabilitation, Peninsular Malaysia",
+    "title_ms": "MysIDC 11.7: Pembangunan Sumber Hutan dan Pemeliharaan / Pemuliharaan Alam Sekitar, Semenanjung Malaysia",
+    "title_sort": 6,
+    "description_en": "",
+    "description_ms": "",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-7.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-7.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM",
+        "NRE"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "source",
+            "title_en": "Type of forest resource",
+            "title_ms": "Jenis sumber hutan",
+            "description_en": "[Categorical] One of 9 forest resources, silviculture and forest rehabilitation ('Silviculture and forest rehabilitation'), community forestry ('Community forestry'), environmental conservation and rehabilitation ('Environmental conservation and rehabilitation'), forest plantation ('Forest plantation'), planting mangroves ('Planting mangroves'), open space planting ('Open space planting'), highway planting ('Highway planting'), community forest ('Community forest'), fruit trees ('Fruit trees')",
+            "description_ms": "[Kategori] Satu daripada 9 sumber hutan, silvikultur dan pemuliharaan hutan ('Silviculture and forest rehabilitation'), perhutanan masyarakat ('Community forestry'), pemeliharaan dan pemuliharaan alam sekitar ('Environmental conservation and rehabilitation'), ladang hutan ('Forest plantation'), tanaman bakau ('Planting mangroves'), tanaman kawasan lapang ('Open space planting'), tanaman di lebuh raya ('Highway planting'), hutan perkampungan ('Community forest'), pokok buah ('Fruit trees')"
+        },
+        {
+            "name": "sub_source",
+            "title_en": "Subcategory of forest resource",
+            "title_ms": "Subkategori sumber hutan",
+            "description_en": "[String] Subcategories of forest resource that is measured",
+            "description_ms": "[Rentetan] Subkategori sumber hutan yang diukur"
+        },
+        {
+            "name": "unit",
+            "title_en": "Unit of Measurement",
+            "title_ms": "Unit Ukuran",
+            "description_en": "[Categorical] Unit of measurement, ",
+            "description_ms": "[Kategori] Unit ukuran"
+        },
+        {
+            "name": "value",
+            "title_en": "Value",
+            "title_ms": "Nilai",
+            "description_en": "[Float] Either the total hectare of land used (for rows with unit of 'hectares'), number ('number') or number of trees (for rows with unit of 'number of trees')",
+            "description_ms": "[Apung] Sama ada jumlah hektar tanah yang digunakan (bagi baris dengan unit 'hectares'), bilangan ('number') ataupun bilangan pokok (bagi baris dengan unit 'number of trees)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "source": "Type of Forest Resource",
+        "unit": "Unit",
+        "value": "Value"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "source": "Jenis Sumber Hutan",
+        "unit": "Unit",
+        "value": "Nilai"
+    },
+    "related_datasets": []
+}

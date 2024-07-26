@@ -1,0 +1,117 @@
+{
+	"title_en": "MysIDC 9.1-4: Percentage Distribution of Households by Number of Bedrooms, State & Strata",
+	"title_ms": "MysIDC 9.1-4: Taburan Peratus Isi Rumah mengikut Bilangan Bilik Tidur, Negeri & Strata",
+	"title_sort": 25,
+	"description_en": "Annual percentage distribution of households by number of bedrooms, state and strata",
+	"description_ms": "Taburan peratus tahunan isi rumah mengikut bilangan bilik tidur, negeri dan strata",
+	"exclude_openapi": false,
+	"manual_trigger": "",
+	"data_as_of": "2012",
+	"last_updated": "2024-07-25 00:00",
+	"next_update": "",
+	"methodology_en": "",
+	"methodology_ms": "",
+	"caveat_en": "\u2014",
+	"caveat_ms": "\u2014",
+	"publication_en": "\u2014",
+	"publication_ms": "\u2014",
+	"link_parquet": "https://storage.dosm.gov.my/odin/mysidc_9-4-1.parquet",
+	"link_csv": "https://storage.dosm.gov.my/odin/mysidc_9-4-1.csv",
+	"frequency": "YEARLY",
+	"geography": [
+		"NATIONAL",
+		"STATE"
+	],
+	"demography": [],
+	"dataset_begin": 2012,
+	"dataset_end": 2012,
+	"data_source": [
+		"DOSM"
+	],
+	"data_source_granular": [],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+		{
+			"name": "state",
+			"title_en": "State",
+			"title_ms": "Negeri",
+			"description_en": "[Categorical] One of 16 states, or Malaysia",
+			"description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+		},
+		{
+			"name": "number_of_bedrooms",
+			"title_en": "Number of Bedrooms",
+			"title_ms": "Bilangan Bilik Tidur",
+			"description_en": "[Categorical] Either none ('0'), one ('1'), two ('2'), three ('3') or four and more ('4+') bedrooms",
+			"description_ms": "[Kategori] Satu daripada tiada ('0'), satu ('1'), dua ('2'), tiga ('3') atau empat dan lebih ('4+') bilik tidur"
+		},
+		{
+			"name": "strata",
+			"title_en": "Strata",
+			"title_ms": "Strata",
+			"description_en": "[Categorical] Either urban ('urban'), rural ('rural') or total ('total')",
+			"description_ms": "[Kategori] Sama ada bandar ('urban'), luar bandar ('rural') atau jumlah ('total')"
+		},
+		{
+			"name": "percentage",
+			"title_en": "Percentage",
+			"title_ms": "Peratusan",
+			"description_en": "[Float] Percentage (%) of households",
+			"description_ms": "[Apung] Peratusan (%) isi rumah"
+		}
+	],
+	"dataviz": [
+		{
+			"dataviz_id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"config": {
+				"precision": 0,
+				"filter_columns": [],
+				"freeze_columns": []
+			}
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"state": "State",
+		"number_of_bedrooms": "Number of Bedrooms",
+		"strata": "Strata",
+		"percentage": "Percentage (%)"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"state": "Negeri",
+		"number_of_bedrooms": "Bilangan Bilik Tidur",
+		"strata": "Strata",
+		"percentage": "Peratusan (%)"
+	},
+	"related_datasets": []
+}

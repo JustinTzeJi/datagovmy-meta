@@ -1,0 +1,99 @@
+{
+    "title_en": "MysIDC 11.8: Forest Resource Development, Sabah",
+    "title_ms": "MysIDC 11.8: Pembangunan Sumber Hutan, Sabah",
+    "title_sort": 7,
+    "description_en": "Total area of land utilizied for forest resource development in Sabah, by year",
+    "description_ms": "Jumlah keluasan tanah yang digunakan untuk pembangunan sumber hutan di Sabah mengikut tahun",
+    "exclude_openapi": false,
+    "manual_trigger": "",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "1. Data for Medicinal plants has not been published from year 2010 and above\n\n2. Data for Fruit trees has not been published from year 2009 and above\n\n3. Data for Community forest has not been published from year 2008 and above\n\n4. Data for Silviculture treatment are published starting from 2010\n\n5. Data for Mangroves are published starting from 2006",
+    "caveat_ms": "1. Data untuk tumbuhan ubatan tidak diterbitkan sejak tahun 2010 \n\n2. Data untuk pokok buah tidak diterbitkan sejak tahun 2009\n\n3. Data untuk hutan perkampungan tidak diterbitkan sejak tahun 2008\n\n4. Data untuk rawatan silvikultur diterbitkan mulai tahun 2010\n\n5. Data untuk tanaman bakau diterbitkan mulai tahun 2006",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-8.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-8.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2001,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM",
+        "Jabatan Hutan Sabah"
+    ],
+    "data_source_granular": [],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "source",
+            "title_en": "Type of forest resource",
+            "title_ms": "Jenis sumber hutan",
+            "description_en": "[Categorical] One of 7 forest resources, enrichment planting ('Enrichment planting'), forest plantation ('Forest plantation'), mangroves ('Mangroves'), medicinal plants ('Medicinal plants'), fruit trees ('Fruit trees'), community forest ('Community forest'), silviculture treatment ('Silviculture treatment')",
+            "description_ms": "[Kategori] Satu daripada 7 sumber hutan, tanaman mengaya ('Enrichment planting'), ladang hutan ('Forest plantation'), tanaman bakau ('Mangroves'), tumbuhan perubatan ('Medicinal plants'), pokok buah ('Fruit trees'), hutan perkampungan ('Community forest'), rawatan silvikultur ('Silviculture treatment')"
+        }
+        {
+            "name": "hectares",
+            "title_en": "Hactares",
+            "title_ms": "Hektar",
+            "description_en": "[Float] Total hectare of land used",
+            "description_ms": "[Apung] Jumlah hektar tanah yang digunkan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "source": "Type of Forest Resource",
+        "hectares": "Hectares"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "source": "Jenis Sumber Hutan",
+        "hectares": "Hektar"
+    },
+    "related_datasets": []
+}

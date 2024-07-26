@@ -1,0 +1,97 @@
+{
+	"title_en": "MysIDC 13.9.11: Prevalence of Stunting among Children under 5 Years of Age by Sex",
+	"title_ms": "MysIDC 13.9.11: Prevalens Pembantutan dalam Kalangan Kanak-kanak di Bawah Umur 5 Tahun mengikut Jantina",
+	"title_sort": 21,
+	"description_en": "Annual percentage of children under 5 years of age with stunting of growth by sex",
+	"description_ms": "Peratusan tahunan kanak-kanak di bawah umur 5 tahun dengan tumbesaran yang terbantut mengikut jantina",
+	"exclude_openapi": false,
+	"manual_trigger": "",
+	"data_as_of": "2022",
+	"last_updated": "2024-07-25 00:00",
+	"next_update": "",
+	"methodology_en": "",
+	"methodology_ms": "",
+	"caveat_en": "\u2014",
+	"caveat_ms": "\u2014",
+	"publication_en": "\u2014",
+	"publication_ms": "\u2014",
+	"link_parquet": "https://storage.dosm.gov.my/odin/mysidc_13-9-11.parquet",
+	"link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-9-11.csv",
+	"frequency": "YEARLY",
+	"geography": [],
+	"demography": [],
+	"dataset_begin": 2019,
+	"dataset_end": 2022,
+	"data_source": [
+		"DOSM",
+		"MOH"
+	],
+	"data_source_granular": [],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+		},
+		{
+			"name": "sex",
+			"title_en": "Sex",
+			"title_ms": "Jantina",
+			"description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
+			"description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+		},
+		{
+			"name": "percentage",
+			"title_en": "Percentage",
+			"title_ms": "Peratusan",
+			"description_en": "[Float] Percentage (%) of children under 5 years old",
+			"description_ms": "[Apung] Peratusan (%) kanak-kanak di bawah umur 5 tahun"
+		}
+	],
+	"dataviz": [
+		{
+			"dataviz_id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"config": {
+				"precision": 0,
+				"filter_columns": [],
+				"freeze_columns": []
+			}
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"sex": "Sex",
+		"percentage": "Percentage (%)"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"sex": "Jantina",
+		"percentage": "Peratusan (%)"
+	},
+	"related_datasets": []
+}
