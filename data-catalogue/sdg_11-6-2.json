@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 11.6.2 : Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities",
-    "title_ms": "SDG 11.6.2 : Purata tahunan tahap zarah halus (contoh: PM2.5 dan PM10) di bandar-bandar",
+    "title_en": "SDG 11.6.2 : Mean Levels of Fine Particulate Matter (e.g. PM2.5 and PM10) in cities",
+    "title_ms": "SDG 11.6.2 : Purata Tahap Zarah Halus (e.g: PM2.5 dan PM10) di bandar-bandar",
     "title_sort": 12,
-    "description_en": "The mean annual concentration of fine suspended particles of less than 2.5 microns in diameter (PM2.5) and 10 microns in diameter (PM10) across urban populations in cities. It serves as a vital resource for monitoring progress towards Sustainable Development Goal (SDG) 11.6.2, which aims to reduce the environmental impact of cities, with a particular emphasis on improving air quality.",
-    "description_ms": "Purata tahunan kepekatan zarah halus yang kurang daripada 2.5 mikron (PM2.5) dan 10 mikron (PM10) dalam populasi bandar di bandar-bandar. Ia berfungsi sebagai sumber penting untuk memantau kemajuan menuju Sustainable Development Goal (SDG) 11.6.2, yang bertujuan mengurangkan impak alam sekitar bandar dengan memberi tumpuan khusus kepada peningkatan kualiti udara.",
+    "description_en": "Annual mean concentration of fine suspended particles broken down by particle type across urban populations in cities. It serves as a vital resource for monitoring progress towards Sustainable Development Goal (SDG) 11.6.2, which aims to reduce the environmental impact of cities, with a particular emphasis on improving air quality",
+    "description_ms": "Purata Tahunan kepekatan zarah halus  dengan pecahan mengikut jenis zarah halus dalam populasi bandar di bandar-bandar. Ia berfungsi sebagai sumber penting untuk memantau kemajuan menuju Sustainable Development Goal (SDG) 11.6.2, yang bertujuan mengurangkan impak alam sekitar bandar dengan memberi tumpuan khusus kepada peningkatan kualiti udara",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
