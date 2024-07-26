@@ -2,7 +2,7 @@
     "title_en": "SDG 4.6.1: Proportion of Population in a Given Age Group Achieving Proficiency in Literacy Skill by State & Sex",
     "title_ms": "SDG 4.6.1: Peratusan Penduduk dalam Kumpulan Umur Tertentu yang Mencapai Sekurang-Kurangnya Tahap Kecekapan dalam Kemahiran Literasi, mengikut Negeri & Jantina",
     "title_sort": 7,
-    "description_en": "Annual percentage of population achieving proficiency in literacy skills, with breakdowns by sex, age and state",
+    "description_en": "Annual percentage of population achieving proficiency in literacy skills, broken down by sex, age and state",
     "description_ms": "Peratusan penduduk tahunan yang mencapai tahap kecekapan dalam kemahiran literasi, dengan pecahan mengikut jantina, umur dan negeri",
     "exclude_openapi": false,
     "manual_trigger": "",

@@ -2,7 +2,7 @@
     "title_en": "SDG 4.1.2: Completion Rate (Primary Education, Lower Secondary Education, Upper Secondary Education) by Sex & State",
     "title_ms": "SDG 4.1.2: Kadar Tamat Persekolahan (Pendidikan Rendah, Pendidikan Menengah Rendah, Pendidikan Menegah Atas) mengikut Jantina & Negeri",
     "title_sort": 6,
-    "description_en": "Annual completion rate of education, with breakdowns by education level, sex and state",
+    "description_en": "Annual completion rate of education, broken down by education level, sex and state",
     "description_ms": "Kadar tamat persekolahan tahunan, dengan pecahan mengikut peringkat pendidikan, jantina dan negeri",
     "exclude_openapi": false,
     "manual_trigger": "",
