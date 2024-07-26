@@ -2,8 +2,8 @@
     "title_en": "SDG 17.8.1: Proportion of Individuals using the Internet by State & District",
     "title_ms": "SDG 17.8.1: Peratusan Individu yang menggunakan Internet mengikut Negeri & Daerah",
     "title_sort": 1,
-    "description_en": "Target 17.8: Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology.\nProportion of individuals using the Internet break down by state and district.",
-    "description_ms": "Sasaran 17.8: Mengoperasikan sepenuhnya bank teknologi dan mekanisme pembinaan keupayaan sains, teknologi dan inovasi untuk negara kurang membangun menjelang 2017 dan meningkatkan penggunaan teknologi yang diperlukan, khususnya teknologi maklumat dan telekomunikasi.\nPeratusan individu yang menggunakan Internet mengikut negeri dan daerah",
+    "description_en": "Proportion of individuals using the Internet, broken down by state and district.",
+    "description_ms": "Peratusan individu yang menggunakan Internet, mengikut negeri dan daerah.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
@@ -75,8 +75,8 @@
             "name": "percentage",
             "title_en": "Percentage (%)",
             "title_ms": "Peratusan (%)",
-            "description_en": "[Float] The percentage of the district's population that uses the internet",
-            "description_ms": "[Apung] Peratusan penduduk daerah yang menggunakan internet"
+            "description_en": "[Float] The percentage (%) of the district's population that uses the internet",
+            "description_ms": "[Apung] Peratusan (%) penduduk daerah yang menggunakan internet"
         }
     ],
     "dataviz": [

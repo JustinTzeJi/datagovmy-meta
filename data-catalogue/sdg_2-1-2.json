@@ -2,8 +2,8 @@
     "title_en": "SDG 2.1.2: Annual Prevalence of Moderate or Severe Food Insecurity in Population by Sex",
     "title_ms": "SDG 2.1.2: Prevalens Tahunan Tiada jaminan Makanan yang Sederhana atau Teruk dalam kalangan Penduduk mengikut Jantina",
     "title_sort": 1,
-    "description_en": "Target 2.1: By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.\nPrevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES).",
-    "description_ms": "Target 2.1: Menjelang 2030, menamatkan kelaparan dan memastikan semua pihak mendapat akses kepada makanan selamat, berkhasiat dan mencukupi sepanjang tahun, khususnya golongan miskin dan mereka yang dalam situasi berisiko, termasuk bayi.\nPrevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk, berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale, FIES).",
+    "description_en": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES).",
+    "description_ms": "Prevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk, berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale, FIES).",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
@@ -84,8 +84,8 @@
             "name": "percentage",
             "title_en": "Percentage (%)",
             "title_ms": "Peratusan (%)",
-            "description_en": "[Float] The proportion of the population that experiences moderate or severe food insecurity",
-            "description_ms": "[Apung] Peratusan penduduk tertentu yang mengalami ketidakjaminan makanan yang sederhana atau teruk"
+            "description_en": "[Float] The proportion (%) of the population that experiences moderate or severe food insecurity",
+            "description_ms": "[Apung] Peratusan (%) penduduk tertentu yang mengalami ketidakjaminan makanan yang sederhana atau teruk"
         }
     ],
     "dataviz": [
