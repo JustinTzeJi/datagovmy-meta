@@ -1,16 +1,16 @@
 {
-    "title_en": "SDG 10.c.1 : Remittance Costs as a Proportioj of The Amount Remitted",
+    "title_en": "SDG 10.c.1 : Remittance Costs as a Proportion of The Amount Remitted",
     "title_ms": "SDG 10.c.1 : Kos Kiriman Wang sebagai Perkadara daripada Jumlah yang Dikirim",
     "title_sort": 10,
-    "description_en": "Annual remittance costs, essential for tracking progress toward Sustainable Development Goal (SDG) 10.c.1, which aims to reduce transaction costs for remittances to less than 3% by 2030 and to eliminate corridors with costs of 5% or higher",
-    "description_ms": "Kos Kiriman Wang Tahunan, yang penting untuk menjejaki kemajuan menuju Sustainable Development Goal (SDG) 10.c.1, yang bertujuan mengurangkan kos transaksi untuk kiriman wang kepada kurang daripada 3% menjelang 2030 dan menghapuskan koridor dengan kos 5% atau lebih tinggi",
+    "description_en": "Annual remittance costs as a proportion of the amount remitted",
+    "description_ms": "Kos Kiriman Wang Tahunan, sebagai peratusan daripada jumlah yang dikirim",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
-    "methodology_en": "-",
-    "methodology_ms": "-",
+    "methodology_en": "Data sourced from Bank Negara Malaysia",
+    "methodology_ms": "Data diperoleh dari Bank Negara Malaysia",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -74,7 +74,9 @@
             "chart_type": "TABLE",
             "config": {
                 "precision": 0,
-                "filter_columns": [],
+                "filter_columns": [
+                    "matter_type"
+                ],
                 "freeze_columns": [
                     "date"
                 ]
