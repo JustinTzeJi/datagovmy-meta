@@ -1,7 +1,7 @@
 {
-    "title_en": "SDG 8.5.2: Unemployment Rate by Age Group & Sex",
-    "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Kumpulan Umur & Jantina",
-    "title_sort": 7,
+    "title_en": "SDG 8.5.2: Unemployment Rate by Age & Sex",
+    "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Umur & Jantina",
+    "title_sort": 21,
     "description_en": "Annual unemployment rate, broken down by age group and sex",
     "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut kumpulan umur dan jantina",
     "exclude_openapi": false,
@@ -54,15 +54,15 @@
             "name": "age",
             "title_en": "Age Group",
             "title_ms": "Kumpulan Umur",
-            "description_en": "[Categorical] Either all age groups ('overall') or ten-year age groups e.g. 15-24, 25-34, 35-44, etc. 55-64 is the oldest category",
-            "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall') atau kumpulan umur dengan julat 10 tahun, contohnya 15-24, 25-34, 35-44, dsb. 55-64 adalah kumpulan yang tertua"
+            "description_en": "[Categorical] Either all age groups ('overall') or ten-year age groups such as '15-24', '25-34', '35-44', etc. '55-64' is the oldest category",
+            "description_ms": "[Kategori] Sama ada semua kumpulan umur ('overall') atau kumpulan umur dengan julat 10 tahun, contohnya '15-24', '25-34', '35-44', dsb. '55-64' adalah kumpulan yang tertua"
         },
         {
             "name": "sex",
             "title_en": "Sex",
             "title_ms": "Jantina",
-            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+            "description_en": "[Categorical] Either male ('male'), female ('female') or both ('both')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male'), perempuan ('female'), atau kedua-duanya ('both')"
           },
                 {
             "name": "date",

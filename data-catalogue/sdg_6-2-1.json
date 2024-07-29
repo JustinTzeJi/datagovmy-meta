@@ -1,7 +1,7 @@
 {
-    "title_en": "SDG 6.2.1: Proportion of Population Using Safely Managed Sanitation Services, by State & Administrative District",
-    "title_ms": "SDG 6.2.1: Peratusan Populasi yang Menggunakan Perkhidmatan Sanitasi yang Diuruskan dengan Selamat, mengikut Negeri & Daerah Pentadbiran",
-    "title_sort": 7,
+    "title_en": "SDG 6.2.1: Proportion of Population Using Safely Managed Sanitation Services by State & District",
+    "title_ms": "SDG 6.2.1: Peratusan Populasi yang Menggunakan Perkhidmatan Sanitasi yang Diuruskan dengan Selamat mengikut Negeri & Daerah",
+    "title_sort": 18,
     "description_en": "Annual percentage of population using safely managed sanitation services, broken down by state and administrative district",
     "description_ms": "Peratusan populasi tahunan yang menggunakan perkhidmatan sanitasi yang diuruskan dengan selamat, dengan pecahan mengikut negeri dan daerah pentadbiran",
     "exclude_openapi": false,
@@ -20,7 +20,8 @@
     "frequency": "YEARLY",
     "geography": [
         "STATE",
-        "DISTRICT"
+        "DISTRICT",
+        "NATIONAL"
     ],
     "demography": [],
     "dataset_begin": 2014,
@@ -54,8 +55,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states, or Malaysia",
-            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
         },
         {
             "name": "district",

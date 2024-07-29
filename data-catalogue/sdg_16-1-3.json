@@ -1,7 +1,7 @@
 {
-    "title_en": "SDG 16.1.3: Annual Total Population subjected to Physical & Sexual Violence by State",
-    "title_ms": "SDG 16.1.3: Bilangan Penduduk yang mengalami Keganasan Fizikal & Seksual mengikut Negeri",
-    "title_sort": 1,
+    "title_en": "SDG 16.1.3: Annual Total Victims of Physical & Sexual Violence by State",
+    "title_ms": "SDG 16.1.3: Jumlah Tahunan Mangsa Keganasan Fizikal & Seksual mengikut Negeri",
+    "title_sort": 31,
     "description_en": "Proportion of population subjected to physical and sexual violence, broken down by state, and entire Malaysia.",
     "description_ms": "Bilangan penduduk yang mengalami keganasan fizikal dan seksual, dengan pecahan mengikut negeri, dan seluruh Malaysia",
     "exclude_openapi": false,
@@ -81,10 +81,10 @@
         },
         {
             "name": "total",
-            "title_en": "Number of Persons",
-            "title_ms": "Bilangan Individu",
-            "description_en": "[Integer] The total number of persons who experienced the specified type of violence",
-            "description_ms": "[Integer] Jumlah keseluruhan individu yang mengalami sebarang jenis keganasan yang tertera"
+            "title_en": "Number of Victims",
+            "title_ms": "Bilangan Mangsa",
+            "description_en": "[Integer] The total number of victims who experienced the specified type of violence",
+            "description_ms": "[Integer] Jumlah keseluruhan individu yang mengalami jenis keganasan yang tertera"
         }
     ],
     "dataviz": [
@@ -105,14 +105,14 @@
         "violence_type": "Type of Violence",
         "violence_specific": "Specific Violence",
         "date": "Date",
-        "total": "Number of Persons"
+        "total": "Number of Victims"
     },
     "translations_ms": {
         "state": "State",
         "violence_type": "Jenis Keganasan",
         "violence_specific": "Keganasan Spesifik",
         "date": "Tarikh",
-        "total": "Bilangan Individu"
+        "total": "Bilangan Mangsa"
     },
     "related_datasets": []
 }

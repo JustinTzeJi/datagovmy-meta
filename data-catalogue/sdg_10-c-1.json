@@ -1,7 +1,7 @@
 {
-    "title_en": "SDG 10.c.1 : Remittance Costs as a Proportion of The Amount Remitted",
-    "title_ms": "SDG 10.c.1 : Kos Kiriman Wang sebagai Perkadara daripada Jumlah yang Dikirim",
-    "title_sort": 10,
+    "title_en": "SDG 10.c.1: Remittance Costs as a Proportion of The Amount Remitted",
+    "title_ms": "SDG 10.c.1: Kos Kiriman Wang sebagai Perkadaran daripada Jumlah yang Dikirim",
+    "title_sort": 23,
     "description_en": "Annual remittance costs as a proportion of the amount remitted",
     "description_ms": "Kos Kiriman Wang Tahunan, sebagai peratusan daripada jumlah yang dikirim",
     "exclude_openapi": false,
@@ -10,7 +10,7 @@
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
     "methodology_en": "Data sourced from Bank Negara Malaysia",
-    "methodology_ms": "Data diperoleh dari Bank Negara Malaysia",
+    "methodology_ms": "Sumber data dari Bank Negara Malaysia",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -60,10 +60,10 @@
         },
         {
             "name": "percentage",
-            "title_en": "Remittance Percentage",
-            "title_ms": "Peratusan Kiriman",
-            "description_en": "[Float] Percentange of earnings sent to other parties",
-            "description_ms": "[Apung] Peratusan pendapatan yang dihantar kepada pihak lain"
+            "title_en": "Remittance Percentage (%)",
+            "title_ms": "Peratusan Kiriman (%)",
+            "description_en": "[Float] Percentange (%) of earnings sent to other parties",
+            "description_ms": "[Apung] Peratusan (%) pendapatan yang dihantar kepada pihak lain"
         }
     ],
     "dataviz": [
@@ -85,11 +85,11 @@
     ],
     "translations_en": {
         "date": "Date",
-        "percentage": "Remittance Percentage"
+        "percentage": "Remittance Percentage (%)"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "percentage": "Peratusan Kiriman"
+        "percentage": "Peratusan Kiriman (%)"
     },
     "related_datasets": []
 }

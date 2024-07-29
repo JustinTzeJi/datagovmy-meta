@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 13.2.2: Annual Total of Greenhouse Gas Emissions",
     "title_ms": "SDG 13.2.2: Jumlah Tahunan Pelepasan Gas Rumah Hijau",
-    "title_sort": 1,
+    "title_sort": 29,
     "description_en": "The total greenhouse gas (GHG) emissions per year",
     "description_ms": "Jumlah pelepasan gas rumah hijau (GHG) setiap tahun",
     "exclude_openapi": false,
@@ -57,10 +57,10 @@
         },
         {
             "name": "total",
-            "title_en": "Total Metric Tons (million)",
-            "title_ms": "Jumlah Metrik Tan (juta)",
-            "description_en": "[Float] Total greenhouse gas emissions measured in million metric tons",
-            "description_ms": "[Apung] Jumlah pelepasan gas rumah hijau yang diukur dalam juta metrik tan"
+            "title_en": "Total (million metric tons)",
+            "title_ms": "Jumlah (juta tan metrik)",
+            "description_en": "[Float] Total greenhouse gas emissions, measured in million metric tons",
+            "description_ms": "[Apung] Jumlah pelepasan gas rumah hijau, diukur dalam juta metrik tan"
         }
     ],
     "dataviz": [
@@ -78,11 +78,11 @@
     ],
     "translations_en": {
         "date": "Date",
-        "total": "Total Metric tons (million)"
+        "total": "Total (million metric tons)"
     },
     "translations_ms": {
         "date": "Tarikh",
-        "total": "Jumlah Metrik Tan (juta)"
+        "total": "Jumlah (juta tan metrik)"
     },
     "related_datasets": []
 }

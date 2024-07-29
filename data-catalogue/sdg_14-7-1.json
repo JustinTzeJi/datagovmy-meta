@@ -1,9 +1,9 @@
 {
     "title_en": "SDG 14.7.1: Annual Sustainable Fisheries as a Proportion of GDP by State",
     "title_ms": "SDG 14.7.1: Perikanan Mampan Tahunan sebagai Peratusan KDNK mengikut Negeri",
-    "title_sort": 1,
-    "description_en": "Sustainable fisheries as a proportion of GDP, broken down by state.",
-    "description_ms": "Perikanan mampan sebagai peratusan KDNK mengikut pecahan negeri.",
+    "title_sort": 30,
+    "description_en": "Annual sustainable fisheries as a proportion of GDP, broken down by state.",
+    "description_ms": "Perikanan mampan tahunan sebagai peratusan KDNK, mengikut pecahan negeri.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
@@ -69,8 +69,8 @@
             "name": "percentage",
             "title_en": "Percentage (%)",
             "title_ms": "Peratusan (%)",
-            "description_en": "[Float] Percentage of the Gross Domestic Product (GDP) attributed to sustainable fisheries for each state, or Malaysia on the specified year",
-            "description_ms": "[Apung] Peratusan Keluaran Dalam Negara Kasar (KDNK) yang disumbangkan oleh perikanan mampan bagi setiap negeri, atau Malaysia mengikut tahun"
+            "description_en": "[Float] Percentage (%) of the Gross Domestic Product (GDP) attributed to sustainable fisheries for each state, or the entire Malaysia on the specified year",
+            "description_ms": "[Apung] Peratusan (%) Keluaran Dalam Negara Kasar (KDNK) yang disumbangkan oleh perikanan mampan bagi setiap negeri, atau keseluruhan Malaysia mengikut tahun"
         }
     ],
     "dataviz": [

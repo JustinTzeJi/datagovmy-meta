@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 8.5.2: Unemployment Rate by Sex & State",
     "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Jantina & Negeri",
-    "title_sort": 7,
+    "title_sort": 22,
     "description_en": "Annual unemployment rate, broken down by sex and state",
     "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut jantina dan negeri",
     "exclude_openapi": false,
@@ -20,7 +20,7 @@
     "frequency": "YEARLY",
     "geography": [
         "STATE",
-        "DISTRICT"
+        "NATIONAL"
     ],
     "demography": [],
     "dataset_begin": 2017,
@@ -54,15 +54,15 @@
             "name": "sex",
             "title_en": "Sex",
             "title_ms": "Jantina",
-            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-            "description_ms": "[Kategori] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+            "description_en": "[Categorical] Either male ('male'), female ('female') or both ('both')",
+            "description_ms": "[Kategori] Sama ada lelaki ('male'), perempuan ('female'), atau kedua-duanya ('both')"
         },
         {
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states, or Malaysia",
-            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
           },
                 {
             "name": "date",
@@ -73,8 +73,8 @@
         },
         {
             "name": "rate",
-            "title_en": "Unemployment Rate",
-            "title_ms": "Kadar Pengangguran",
+            "title_en": "Unemployment Rate (%)",
+            "title_ms": "Kadar Pengangguran (%)",
             "description_en": "[Float] Unemployment rate, expressed as percentage (%)",
             "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%)"
         }

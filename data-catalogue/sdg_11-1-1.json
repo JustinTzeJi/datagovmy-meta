@@ -1,16 +1,16 @@
 {
-    "title_en": "SDG 11.1.1 : Proportion of urban population living in slums, informal settlements or inadequate housing by State",
-    "title_ms": "SDG 11.1.1 : Perkadaran Populasi bandar yang menetap di kawasan kumuh, penempatan tidak rasmi, atau perumahan yang tidak lengkap mengikut Negeri",
-    "title_sort": 11,
+    "title_en": "SDG 11.1.1 : Proportion of Urban Population Living in Slums, Informal Settlements or Inadequate Housing by State",
+    "title_ms": "SDG 11.1.1 : Perkadaran Populasi Bandar yang menetap di Kawasan Setinggan, Tidak Rasmi, atau Tidak Memadai mengikut Negeri",
+    "title_sort": 24,
     "description_en": "Annual Proportion of the urban population living in slums, informal settlements, or inadequate housing,broken down by state",
-    "description_ms": "Perkadaran Tahunan populasi bandar yang tinggal di kawasan kumuh, penempatan tidak rasmi, atau perumahan tidak mencukupi,dengan pecahan mengikut negeri",
+    "description_ms": "Perkadaran Tahunan populasi bandar yang tinggal di kawasan setinggan, penempatan tidak rasmi, atau perumahan tidak memdai, dengan pecahan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2020",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
     "methodology_en": " Data sourced from Ministry of Housing and Local Government,National Housing Department and PLANMalaysia",
-    "methodology_ms": " Data diperoleh dari Kementerian Perumahan dan Kerajaan Tempatan, Jabatan Perumahan Negara dan PLANMalaysia",
+    "methodology_ms": " Sumber data dari Kementerian Perumahan dan Kerajaan Tempatan, Jabatan Perumahan Negara dan PLANMalaysia",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -56,15 +56,15 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 16 states or Malaysia",
-            "description_ms": "[Kategoril] Satu daripada 16 negeri atau Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategoril] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
         },
         {
             "name": "percentage",
-            "title_en": "Percentage of Urban Population",
-            "title_ms": "Peratusan Populasi Bandar",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
             "description_en": "[Float] Percentage of urban population living in slums, informal settlements or inadequate housing",
-            "description_ms": "[Apung] Peratusan populasi bandar yang menetap di kawasan kumuh, penempatan tidak rasmi, atau perumahan yang tidak lengkap"
+            "description_ms": "[Apung] Peratusan populasi bandar yang menetap di kawasan setinggan, penempatan tidak rasmi, atau perumahan yang tidak memadai"
         }
     ],
     "dataviz": [
@@ -84,12 +84,12 @@
     ],
     "translations_en": {
         "state": "State",
-        "percentage": "Percentage of Urban Population"
+        "percentage": "Percentage (%)"
 
     },
     "translations_ms": {
         "state": "Negeri",
-        "percentage": "Peratusan Populasi Bandar"
+        "percentage": "Peratusan (%)"
     },
     "related_datasets": []
 }

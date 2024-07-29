@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 8.5.2: Unemployment Rate by State & Administrative District",
     "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Negeri & Daerah Pentadbiran",
-    "title_sort": 7,
+    "title_sort": 20,
     "description_en": "Annual unemployment rate, broken down by state and administrative district",
     "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut negeri dan daerah pentadbiran",
     "exclude_openapi": false,
@@ -54,8 +54,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states",
-            "description_ms": "[Kategori] Satu daripada 16 negeri"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
         },
         {
             "name": "district",
@@ -73,8 +73,8 @@
         },
         {
             "name": "rate",
-            "title_en": "Unemployment Rate",
-            "title_ms": "Kadar Pengangguran",
+            "title_en": "Unemployment Rate (%)",
+            "title_ms": "Kadar Pengangguran (%)",
             "description_en": "[Float] Unemployment rate, expressed as percentage (%)",
             "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%)"
         }

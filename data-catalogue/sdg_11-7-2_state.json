@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 11.7.2 : Proportion of persons victim of physical or sexual harassment by state",
-    "title_ms": "SDG 11.7.2 : Kadar peratusan individu yang menjadi mangsa gangguan fizikal atau seksual mengikut negeri",
-    "title_sort": 15,
-    "description_en": "Proportion of individuals who have experienced physical or sexual harassment, broken down by state",
-    "description_ms": "Perkadaran individu yang mengalami gangguan fizikal atau seksual, dengan pecahan mengikut negeri",
+    "title_en": "SDG 11.7.2 : Proportion of Physical or Sexual Harassment Victims by State",
+    "title_ms": "SDG 11.7.2 : Peratusan Mangsa Gangguan Fizikal atau Seksual mengikut Negeri",
+    "title_sort": 28,
+    "description_en": "Annual proportion of individuals who have experienced physical or sexual harassment, broken down by state",
+    "description_ms": "Peratusan tahunan individu yang mengalami gangguan fizikal atau seksual, dengan pecahan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
@@ -56,8 +56,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 16 states or Malaysia",
-            "description_ms": "[Kategoril] Satu daripada 16 negeri atau Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategoril] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
         },
         {
             "name": "date",
@@ -70,8 +70,8 @@
             "name": "number",
             "title_en": "Number of Persons",
             "title_ms": "Bilangan Individu",
-            "description_en": "[Integer] Number of individuals who have experienced physical or sexual harassment",
-            "description_ms": "[Integer] Bilangan individu yang mengalami gangguan fizikal atau seksual"
+            "description_en": "[Integer] The number of victims who have experienced physical or sexual harassment",
+            "description_ms": "[Integer] Bilangan mangsa yang mengalami gangguan fizikal atau seksual"
         }
     ],
     "dataviz": [
@@ -94,12 +94,12 @@
     "translations_en": {
         "state": "State",
         "date": "Date",
-        "number" : "Number of Persons"
+        "number" : "Number of Victims"
     },
     "translations_ms": {
         "state": "Negeri",
         "date": "Tarikh",
-        "number" : "Bilangan Individu"
+        "number" : "Bilangan Mangsa"
     },
     "related_datasets": []
 }

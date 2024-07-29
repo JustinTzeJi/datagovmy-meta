@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 11.7.2 : Proportion of persons victim of physical or sexual harassment by sex",
-    "title_ms": "SDG 11.7.2 : Kadar peratusan individu yang menjadi mangsa gangguan fizikal atau seksual mengikut jantina",
-    "title_sort": 14,
-    "description_en": "Annual Proportion of individuals who have experienced physical or sexual harassment, broken down by sex",
-    "description_ms": "Perkadaran Tahunan individu yang mengalami gangguan fizikal atau seksual, dengan pecahan mengikut jantina",
+    "title_en": "SDG 11.7.2 : Proportion of Physical or Sexual Harassment Victims by Sex",
+    "title_ms": "SDG 11.7.2 : Peratusan Mangsa Gangguan Fizikal atau Seksual mengikut Jantina",
+    "title_sort": 27,
+    "description_en": "Annual proportion of individuals who have experienced physical or sexual harassment, broken down by sex",
+    "description_ms": "Peratusan tahunan individu yang mengalami gangguan fizikal atau seksual, dengan pecahan mengikut jantina",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
@@ -55,8 +55,8 @@
             "name": "sex",
             "title_en": "Sex",
             "title_ms": "Jantina",
-            "description_en": "[Categorical] Either both sexes ('both'), male ('male') or female ('female')",
-            "description_ms": "[Kategoril] Sama ada kedua-dua jantina ('both'), lelaki ('male') atau perempuan ('female')"
+            "description_en": "[Categorical] Either male ('male'), female ('female') or both ('both')",
+            "description_ms": "[Kategoril] Sama ada lelaki ('male'), perempuan ('female'), atau kedua-duanya ('both')"
         },
         {
             "name": "date",
@@ -67,10 +67,10 @@
         },
         {
             "name": "number",
-            "title_en": "Number of Persons",
-            "title_ms": "Bilangan Individu",
-            "description_en": "[Integer] The mean concentration of fine particulate matter in cities (population weighted)",
-            "description_ms": "[Integer] Purata kepekatan zarah halus di bandar-bandar (berpemberat penduduk)"
+            "title_en": "Number of Victims",
+            "title_ms": "Bilangan Mangsa",
+            "description_en": "[Integer] The number of victims who have experienced physical or sexual harassment",
+            "description_ms": "[Integer] Bilangan mangsa yang mengalami gangguan fizikal atau seksual"
         }
     ],
     "dataviz": [
@@ -93,12 +93,12 @@
     "translations_en": {
         "sex": "Sex",
         "date": "Date",
-        "number" : "Number of Persons"
+        "number" : "Number of Victims"
     },
     "translations_ms": {
         "sex": "Jantina",
         "date": "Tarikh",
-        "number" : "Bilangan Individu"
+        "number" : "Bilangan Mangsa"
     },
     "related_datasets": []
 }
