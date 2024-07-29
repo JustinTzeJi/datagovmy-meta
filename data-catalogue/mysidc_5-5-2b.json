@@ -1,0 +1,123 @@
+{
+	"title_en": "MysIDC 5.5.2b: Electricity Generation (Monthly)",
+	"title_ms": "MysIDC 5.5.2b: Penjanaan Kuasa Elektrik (Bulanan)",
+	"title_sort": 20,
+	"description_en": "Monthly electricity generation",
+	"description_ms": "Penjanaan kuasa elektrik bulanan",
+	"exclude_openapi": false,
+	"manual_trigger": "",
+	"data_as_of": "2024",
+	"last_updated": "2024-07-29 00:00",
+	"next_update": "",
+	"methodology_en": "",
+	"methodology_ms": "",
+	"caveat_en": "Revisions were made based on the latest data available for years 2018, 2019, 2020 and 2021. Data for years 2022, 2023 and 2024 are preliminary.",
+	"caveat_ms": "Kemaskini telah dibuat berdasarkan data terkini yang diperoleh untuk tahun 2018, 2019, 2020 and 2021. Data untuk tahun 2022, 2023 and 2024 adalah data awalan.",
+	"publication_en": "\u2014",
+	"publication_ms": "\u2014",
+	"link_parquet": "https://storage.dosm.gov.my/odin/mysidc_5-5-2b.parquet",
+	"link_csv": "https://storage.dosm.gov.my/odin/mysidc_5-5-2b.csv",
+	"frequency": "MONTHLY",
+	"geography": [],
+	"demography": [],
+	"dataset_begin": 2018,
+	"dataset_end": 2024,
+	"data_source": [
+		"DOSM"
+	],
+	"data_source_granular": [],
+	"site_category": [
+		{
+			"site": "datagovmy",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		},
+		{
+			"site": "opendosm",
+			"category_en": "Statistical Indicators",
+			"category_ms": "Indikator Statistik",
+			"category_sort": 100,
+			"subcategory_en": "MysIDC Indicators",
+			"subcategory_ms": "Penunjuk MysIDC",
+			"subcategory_sort": 40
+		}
+	],
+	"fields": [
+		{
+			"name": "date",
+			"title_en": "Date",
+			"title_ms": "Tarikh",
+			"description_en": "[Date] The date in YYYY-MM-DD format, with DD set to 01 since the data is at monthly frequency",
+			"description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan DD ditetapkan sebagai 01 kerana data berfrekuensi bulanan"
+		},
+		{
+			"name": "total_supply",
+			"title_en": "Total Supply",
+			"title_ms": "Jumlah Bekalan",
+			"description_en": "[Float] Total electricity supply, million kilowatt-hours (GWh)",
+			"description_ms": "[Apung] Jumlah bekalan kuasa elektrik, juta kilowatt-jam (GWh)"
+		},
+		{
+			"name": "local_public",
+			"title_en": "Local Generation - Public Installations",
+			"title_ms": "Penjanaan Tempatan - Pemasangan Awam",
+			"description_en": "[Float] Electricity supply generated from local public installations, million kilowatt-hours (GWh)",
+			"description_ms": "[Apung] Bekalan kuasa elektrik dijana oleh pemasangan tempatan, juta kilowatt-jam (GWh)"
+		},
+		{
+			"name": "local_private",
+			"title_en": "Local Generation - Private Installations",
+			"title_ms": "Penjanaan Tempatan - Pemasangan Swasta",
+			"description_en": "[Float] Electricity supply generated from local private installations, million kilowatt-hours (GWh)",
+			"description_ms": "[Apung] Bekalan kuasa elektrik dijana oleh pemasangan swasta, juta kilowatt-jam (GWh)"
+		},
+		{
+			"name": "imports",
+			"title_en": "Imports",
+			"title_ms": "Import",
+			"description_en": "[Float] Total electricity supply imported, million kilowatt-hours (GWh)",
+			"description_ms": "[Apung] Jumlah bekalan kuasa elektrik yang diimport, juta kilowatt-jam (GWh)"
+		},
+		{
+			"name": "total_distribution",
+			"title_en": "Total Distribution",
+			"title_ms": "Jumlah Edaran",
+			"description_en": "[Float] Total distribution of electricity supply, million kilowatt-hours (GWh)",
+			"description_ms": "[Apung] Jumlah edaran bekalan kuasa elektrik, juta kilowatt-jam (GWh)"
+		}
+	],
+	"dataviz": [
+		{
+			"dataviz_id": "table",
+			"title_en": "Table",
+			"title_ms": "Jadual",
+			"chart_type": "TABLE",
+			"config": {
+				"precision": 0,
+				"filter_columns": [],
+				"freeze_columns": []
+			}
+		}
+	],
+	"translations_en": {
+		"date": "Date",
+		"total_supply": "Total Supply (GWh)",
+		"local_public": "Local Generation - Public Installations (GWh)",
+		"local_private": "Local Generation - Private Installations (GWh)",
+		"imports": "Imports (GWh)",
+		"total_distribution": "Total Distribution (GWh)"
+	},
+	"translations_ms": {
+		"date": "Tarikh",
+		"total_supply": "Jumlah Bekalan (GWh)",
+		"local_public": "Penjanaan Tempatan - Pemasangan Awam (GWh)",
+		"local_private": "Penjanaan Tempatan - Pemasangan Swasta (GWh)",
+		"imports": "Import (GWh)",
+		"total_distribution": "Jumlah Edaran (GWh)"
+	},
+	"related_datasets": []
+}
