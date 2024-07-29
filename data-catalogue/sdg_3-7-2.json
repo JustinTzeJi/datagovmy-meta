@@ -100,13 +100,13 @@
         "date": "Date",
         "state": "State",
         "age": "Age",
-        "rate": "Birth Rate ('000)"
+        "rate": "Birth Rate"
     },
     "translations_ms": {
         "date": "Tarikh",
         "state": "Negeri",
         "age": "Umur",
-        "rate": "Kadar Kelahiran ('000)"
+        "rate": "Kadar Kelahiran"
     },
     "related_datasets": []
 }
