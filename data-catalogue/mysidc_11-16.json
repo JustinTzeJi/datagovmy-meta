@@ -82,50 +82,50 @@
             "name": "biochemical_oxygen_demand_clean",
             "title_en": "Biochemical Oxygen Demand (Clean)",
             "title_ms": "Permintaan Oksigen Biokimia (Bersih)",
-            "description_en": "[Integer] The number of river basins classified as clean based on biochemical oxygen demand (BOD) levels.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap permintaan oksigen biokimia (BOD)."
+            "description_en": "[Integer] The number of river basins classified as clean based on biochemical oxygen demand (BOD) levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap permintaan oksigen biokimia (BOD)"
         },
         {
             "name": "ammoniacal_nitrogen_polluted",
             "title_en": "Ammoniacal Nitrogen (Polluted)",
             "title_ms": "Nitrogen Ammonia (Tercemar)",
-            "description_en": "[Integer] The number of river basins classified as polluted based on ammoniacal nitrogen levels.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap nitrogen ammonia."
+            "description_en": "[Integer] The number of river basins classified as polluted based on ammoniacal nitrogen levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap nitrogen ammonia"
         },
         {
             "name": "ammoniacal_nitrogen_slightly_polluted",
             "title_en": "Ammoniacal Nitrogen (Slightly Polluted)",
             "title_ms": "Nitrogen Ammonia (Sedikit Tercemar)",
-            "description_en": "[Integer] The number of river basins classified as slightly polluted based on ammoniacal nitrogen levels.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap nitrogen ammonia."
+            "description_en": "[Integer] The number of river basins classified as slightly polluted based on ammoniacal nitrogen levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap nitrogen ammonia"
         },
         {
             "name": "ammoniacal_nitrogen_clean",
             "title_en": "Ammoniacal Nitrogen (Clean)",
             "title_ms": "Nitrogen Ammonia (Bersih)",
-            "description_en": "[Integer] The number of river basins classified as clean based on ammoniacal nitrogen levels.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap nitrogen ammonia."
+            "description_en": "[Integer] The number of river basins classified as clean based on ammoniacal nitrogen levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap nitrogen ammonia"
         },
         {
             "name": "polluted_suspended_solids",
-            "title_en": "Polluted Suspended Solids",
-            "title_ms": "Pepejal Tersuspensi Tercemar",
-            "description_en": "[Integer] The number of river basins classified as polluted based on the levels of suspended solids.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap pepejal tersuspensi."
+            "title_en": "Suspended Solids (Polluted)",
+            "title_ms": "Pepejal Tersuspensi (Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as polluted based on the levels of suspended solids",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap pepejal tersuspensi"
         },
         {
             "name": "suspended_solids_slightly_polluted",
             "title_en": "Suspended Solids (Slightly Polluted)",
             "title_ms": "Pepejal Tersuspensi (Sedikit Tercemar)",
-            "description_en": "[Integer] The number of river basins classified as slightly polluted based on the levels of suspended solids.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap pepejal tersuspensi."
+            "description_en": "[Integer] The number of river basins classified as slightly polluted based on the levels of suspended solids",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap pepejal tersuspensi"
         },
         {
             "name": "suspended_solids_clean",
             "title_en": "Suspended Solids (Clean)",
             "title_ms": "Pepejal Tersuspensi (Bersih)",
-            "description_en": "[Integer] The number of river basins classified as clean based on the levels of suspended solids.",
-            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap pepejal tersuspensi."
+            "description_en": "[Integer] The number of river basins classified as clean based on the levels of suspended solids",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap pepejal tersuspensi"
         }
     ],
     "dataviz": [
@@ -150,7 +150,7 @@
         "ammoniacal_nitrogen_polluted": "Ammoniacal Nitrogen (Polluted)",
         "ammoniacal_nitrogen_slightly_polluted": "Ammoniacal Nitrogen (Slightly Polluted)",
         "ammoniacal_nitrogen_clean": "Ammoniacal Nitrogen (Clean)",
-        "polluted_suspended_solids": "Polluted Suspended Solids",
+        "polluted_suspended_solids": "Suspended Solids (Polluted)",
         "suspended_solids_slightly_polluted": "Suspended Solids (Slightly Polluted)",
         "suspended_solids_clean": "Suspended Solids (Clean)"
     },
@@ -163,7 +163,7 @@
         "ammoniacal_nitrogen_polluted": "Nitrogen Ammonia (Tercemar)",
         "ammoniacal_nitrogen_slightly_polluted": "Nitrogen Ammonia (Sedikit Tercemar)",
         "ammoniacal_nitrogen_clean": "Nitrogen Ammonia (Bersih)",
-        "polluted_suspended_solids": "Pepejal Tersuspensi Tercemar",
+        "polluted_suspended_solids": "Pepejal Tersuspensi (Tercemar)",
         "suspended_solids_slightly_polluted": "Pepejal Tersuspensi (Sedikit Tercemar)",
         "suspended_solids_clean": "Pepejal Tersuspensi (Bersih)"
     },

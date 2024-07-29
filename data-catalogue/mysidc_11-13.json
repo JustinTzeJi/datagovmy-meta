@@ -69,8 +69,8 @@
             "name": "total_million_litres_per_day",
             "title_en": "Total (million litres/day)",
             "title_ms": "Total (juta liter/sehari)",
-            "description_en": "[Float] The total amount of water consumed in million litres per day (MLD)",
-            "description_ms": "[Apung] Jumlah keseluruhan air yang digunakan dalam juta liter setiap hari (MLD)"
+            "description_en": "[Float] The volume of water consumed, measured in million litres per day (MLD)",
+            "description_ms": "[Apung] Jumlah isipadu air yang digunakan, diukur dalam juta liter setiap hari (MLD)"
         }
     ],
     "dataviz": [

@@ -2,8 +2,8 @@
     "title_en": "MysIDC 11.6: Production of Major Timber Products by State",
     "title_ms": "MysIDC 11.6: Pengeluaran Produk Kayu-Kayan Utama Mengikut Negeri",
     "title_sort": 1,
-    "description_en": "Production of major timber products with a breakdown by state",
-    "description_ms": "Pengeluaran produk kayu-kayan utama dengan pecahan mengikut negeri",
+    "description_en": "Production of major timber products, broken down by state",
+    "description_ms": "Pengeluaran produk kayu-kayan utama, dengan pecahan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
@@ -69,8 +69,8 @@
             "name": "major_timber_products",
             "title_en": "Major Timber Products",
             "title_ms": "Produk Kayu Utama",
-            "description_en": "[Categorical] The type of major timber products produced",
-            "description_ms": "[Kategori] Jenis produk kayu utama yang dihasilkan"
+            "description_en": "[String] The type of major timber products produced",
+            "description_ms": "[Rentetan] Jenis produk kayu utama yang dihasilkan"
         },
         {
             "name": "cubic_metres",

@@ -2,8 +2,8 @@
     "title_en": "MysIDC 10.1.1: Planted Area of Selected Crops",
     "title_ms": "MysIDC 10.1.1: Keluasan Kawasan Penanaman bagi Tanaman Terpilih",
     "title_sort": 1,
-    "description_en": "Planted area of selected crops with a breakdown by crop types.",
-    "description_ms": "Keluasan Kawasan Penanaman bagi Tanaman Terpilih dengan pecahan mengikut jenis tanaman.",
+    "description_en": "Planted area of selected crops, broken down by crop types.",
+    "description_ms": "Keluasan Kawasan Penanaman bagi Tanaman Terpilih, dengan pecahan mengikut jenis tanaman.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
@@ -61,8 +61,8 @@
             "name": "crops",
             "title_en": "Crops",
             "title_ms": "Tanaman",
-            "description_en": "[Categorical] The type of crops",
-            "description_ms": "[Kategori] Jenis Tanaman"
+            "description_en": "[Categorical] The type of selected crops",
+            "description_ms": "[Kategori] Jenis tanaman terpilih"
         },
         {
             "name": "items",
@@ -72,11 +72,11 @@
             "description_ms": "[Kategori] Jenis tanah pertanian atau sistem pengurusan. Sama ada ladang ('Estate') atau kebun kecil ('Smallholdings')"
         },
         {
-            "name": "area_1000_hectares",
+            "name": "area_thousand_hectares",
             "title_en": "Area ('000 Hectares)",
             "title_ms": "Keluasan ('000 Hektar)",
-            "description_en": "[Float] Planted area measured in thousands hectares unit",
-            "description_ms": "[Apung] Keluasan kawasan tanaman diukur dalam unit seribu hektar"
+            "description_en": "[Float] Planted area of selected crops, measured in thousands of hectares",
+            "description_ms": "[Apung] Luas kawasan bagi tanaman terpilih, diukur dalam ribu hektar"
         }
     ],
     "dataviz": [

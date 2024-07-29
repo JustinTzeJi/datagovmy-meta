@@ -2,8 +2,8 @@
     "title_en": "MysIDC 11.3: Emission of Pollutants to the Atmosphere by Type and Sources",
     "title_ms": "MysIDC 11.3: Pelepasan Bahan Pencemar ke Udara mengikut Jenis dan Sumber",
     "title_sort": 1,
-    "description_en": "Emission of pollutants to the atmosphere with a breakdown by type and sources",
-    "description_ms": "Pelepasan bahan pencemar ke udara dengan pecahan mengikut jenis dan sumber",
+    "description_en": "Emission of pollutants to the atmosphere, broken down by type and sources",
+    "description_ms": "Pelepasan bahan pencemar ke udara, dengan pecahan mengikut jenis dan sumber",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
@@ -61,15 +61,15 @@
             "name": "type",
             "title_en": "Type",
             "title_ms": "Jenis",
-            "description_en": "[Categorical] The category or type of emission source, such as stationary sources ('Stationary sources'), motor vehicles ('Motor vehicles'), or others ('Others')",
-            "description_ms": "[Kategori] Kategori atau jenis sumber pelepasan, seperti sumber pegun ('Stationary sources'), kenderaan bermotor ('Motor vehicles'), atau lain-lain ('Others')."
+            "description_en": "[Categorical] The general category of emission source, such as stationary sources ('Stationary sources'), motor vehicles ('Motor vehicles'), or others ('Others')",
+            "description_ms": "[Kategori] Kategori umum sumber pelepasan, seperti sumber pegun ('Stationary sources'), kenderaan bermotor ('Motor vehicles'), atau lain-lain ('Others')."
         },
         {
             "name": "source",
             "title_en": "Sources",
             "title_ms": "Sumber",
-            "description_en": "[Categorical] The specific source within the type category, such as industrial ('Industrial') or power plant ('Power plant')",
-            "description_ms": "[Kategori] Sumber spesifik dalam kategori jenis, seperti perindustrian ('Industrial') atau loji janakuasa ('Power plant')"
+            "description_en": "[Categorical] The specific source within each general category, such as industrial ('Industrial') or power plant ('Power plant')",
+            "description_ms": "[Kategori] Sumber spesifik dalam setiap kategori umum, seperti perindustrian ('Industrial') atau loji janakuasa ('Power plant')"
         },
         {
             "name": "total_thousand_tonnes",
