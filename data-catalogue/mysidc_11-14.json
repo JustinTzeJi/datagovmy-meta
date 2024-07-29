@@ -1,0 +1,100 @@
+{
+    "title_en": "MysIDC 11.14: Metered Non-Domestic Water Consumption by State",
+    "title_ms": "MysIDC 11.14: Penggunaan Air Bukan Domestik Bermeter mengikut Negeri",
+    "title_sort": 1,
+    "description_en": "Metered non-domestic water consumption to monitor water usage in non-residential premises with a breakdown by state.",
+    "description_ms": "Penggunaan air bukan domestik yang diukur menggunakan meter untuk memantau penggunaan air di premis bukan kediaman dengan pecahan mengikut negeri.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data sourced from Ministry of Natural Resources, Environment and Climate Change, National Water Services Commission",
+    "methodology_ms": "Sumber data dari Kementerian Sumber Asli, Alam Sekitar dan Perubahan Iklim, Suruhanjaya Perkhidmatan Air Negara",
+    "caveat_en": "Sarawak includes LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang), Sibu Water Board, Kuching Water Board and Sarawak Rural Water Supply Department (JBALB).\nSelangor includes W.P. Kuala Lumpur and W.P. Putrajaya",
+    "caveat_ms": "Sarawak merangkumi LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang), Lembaga Air Sibu, Lembaga Air Kuching dan Jabatan Bekalan Air Luar Bandar Sarawak (JBALB).\nSelangor merangkumi W.P. Kuala Lumpur dan W.P. Putrajaya.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-14.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-14.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2003,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "Country/State",
+            "title_ms": "Negara/Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia ('Malaysia'). Selangor includes W.P. Kuala Lumpur and W.P. Putrajaya.",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia ('Malaysia'). Selangor merangkumi W.P. Kuala Lumpur dan W.P. Putrajaya."
+        },
+        {
+            "name": "total_million_litres_per_day",
+            "title_en": "Total (million litres/day)",
+            "title_ms": "Total (juta liter/sehari)",
+            "description_en": "[Float] The total amount of water consumed in million litres per day (MLD).",
+            "description_ms": "[Apung] Jumlah keseluruhan air yang digunakan dalam juta liter setiap hari (MLD)."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "Country/State",
+        "total_million_litres_per_day": "Total (million litres/day)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negara/Negeri",
+        "total_million_litres_per_day": "Total (juta liter/sehari)"
+    },
+    "related_datasets": []
+}

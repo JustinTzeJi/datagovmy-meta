@@ -1,0 +1,109 @@
+{
+    "title_en": "MysIDC 11.2: Population with Treated Piped Water by State and Strata",
+    "title_ms": "MysIDC 11.2: Penduduk dengan Air Paip yang Dirawat mengikut Negeri dan Strata",
+    "title_sort": 1,
+    "description_en": "Proportion of the population with treated piped water with a breakdown by state and strata",
+    "description_ms": "Peratusan penduduk yang mendapat sumber air paip yang dirawat dengan pecahan mengikut negeri dan strata",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "Kelantan’s percentage of the population refers to the percentage of the population with a connected water supply. Although there is accessibility, the percentage of premises with connected services is low, and many households still use alternative sources, such as groundwater.\nSarawak includes LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang), Sibu Water Board, Kuching Water Board, and Sarawak Rural Water Supply Department. Figures for the rural areas of Sarawak exclude partly treated potable water supplied by other agencies, such as the Ministry of Rural and Regional Development, the Ministry of Health, and private water supply.\nSelangor includes W.P. Kuala Lumpur and W.P. Putrajaya.\nFor other states, the population is based on the percentage of the population that has access to the public water supply system.",
+    "caveat_ms": "Peratusan populasi di Kelantan merujuk kepada peratusan populasi yang mempunyai bekalan air yang bersambung. Walaupun memiliki bekalan, peratusan premis yang mempunyai perkhidmatan air bersambung adalah rendah, dan banyak isi rumah yang masih menggunakan sumber alternatif seperti air bawah tanah.\nSarawak merangkumi LAKU Management Sdn. Bhd. (Bintulu, Miri & Limbang), Lembaga Air Sibu, Lembaga Air Kuching, dan Jabatan Bekalan Air Luar Bandar Sarawak. Angka untuk kawasan luar bandar Sarawak tidak termasuk air minuman yang dirawat sebahagian yang dibekalkan oleh agensi lain seperti Kementerian Pembangunan Luar Bandar dan Wilayah, Kementerian Kesihatan, dan bekalan air persendirian.\nSelangor merangkumi W.P. Kuala Lumpur dan W.P. Putrajaya.\nBagi negeri-negeri lain, populasi adalah berdasarkan peratusan populasi yang mempunyai akses kepada sistem bekalan air awam.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-12.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-12.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "Country/State",
+            "title_ms": "Negara/Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia ('MALAYSIA'). Selangor includes W.P. Kuala Lumpur and W.P. Putrajaya.",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia ('MALAYSIA'). Selangor merangkumi W.P. Kuala Lumpur dan W.P. Putrajaya."
+        },
+        {
+            "name": "strata",
+            "title_en": "Strata",
+            "title_ms": "Strata",
+            "description_en": "[Categorical] Either urban ('URBAN'), rural ('RURAL'), or the overall strata in the state including both urban and rural areas ('STATE AVERAGE')",
+            "description_ms": "[Kategori] Sama ada kawasan bandar ('URBAN'), luar bandar ('RURAL'), atau keseluruhan strata di negeri itu yang termasuk bandar dan luar bandar ('STATE AVERAGE')"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The percentage of the population with treated piped water",
+            "description_ms": "[Apung] Peratusan populasi dengan bekalan air paip yang dirawat"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "Country/State",
+        "strata": "Strata",
+        "percentage": "Percentage (%)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negara/Negeri",
+        "strata": "Strata",
+        "percentage": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

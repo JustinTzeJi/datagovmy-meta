@@ -1,0 +1,108 @@
+{
+    "title_en": "MysIDC 11.3: Emission of Pollutants to the Atmosphere by Type and Sources",
+    "title_ms": "MysIDC 11.3: Pelepasan Bahan Pencemar ke Udara mengikut Jenis dan Sumber",
+    "title_sort": 1,
+    "description_en": "Emission of pollutants to the atmosphere with a breakdown by type and sources",
+    "description_ms": "Pelepasan bahan pencemar ke udara dengan pecahan mengikut jenis dan sumber",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-3.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-3.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "type",
+            "title_en": "Type",
+            "title_ms": "Jenis",
+            "description_en": "[Categorical] The category or type of emission source, such as stationary sources ('Stationary sources'), motor vehicles ('Motor vehicles'), or others ('Others')",
+            "description_ms": "[Kategori] Kategori atau jenis sumber pelepasan, seperti sumber pegun ('Stationary sources'), kenderaan bermotor ('Motor vehicles'), atau lain-lain ('Others')."
+        },
+        {
+            "name": "source",
+            "title_en": "Sources",
+            "title_ms": "Sumber",
+            "description_en": "[Categorical] The specific source within the type category, such as industrial ('Industrial') or power plant ('Power plant')",
+            "description_ms": "[Kategori] Sumber spesifik dalam kategori jenis, seperti perindustrian ('Industrial') atau loji janakuasa ('Power plant')"
+        },
+        {
+            "name": "total_thousand_tonnes",
+            "title_en": "Total ('000 tonnes)",
+            "title_ms": "Jumlah ('000 tan)",
+            "description_en": "[Float] The total amount of pollutants emitted, measured in thousand tonnes",
+            "description_ms": "[Apung] Jumlah keseluruhan bahan pencemar yang dilepaskan, diukur dalam ribu tan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "type": "Type",
+        "sources": "Sources",
+        "total_thousand_tonnes": "Total ('000 tonnes)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "type": "Jenis",
+        "sources": "Sumber",
+        "total_thousand_tonnes": "Jumlah ('000 tan)"
+    },
+    "related_datasets": []
+}

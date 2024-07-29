@@ -1,0 +1,108 @@
+{
+    "title_en": "MysIDC 10.1.1: Planted Area of Selected Crops",
+    "title_ms": "MysIDC 10.1.1: Keluasan Kawasan Penanaman bagi Tanaman Terpilih",
+    "title_sort": 1,
+    "description_en": "Planted area of selected crops with a breakdown by crop types.",
+    "description_ms": "Keluasan Kawasan Penanaman bagi Tanaman Terpilih dengan pecahan mengikut jenis tanaman.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_10-1-1.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_10-1-1.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "crops",
+            "title_en": "Crops",
+            "title_ms": "Tanaman",
+            "description_en": "[Categorical] The type of crops",
+            "description_ms": "[Kategori] Jenis Tanaman"
+        },
+        {
+            "name": "items",
+            "title_en": "Items",
+            "title_ms": "Item",
+            "description_en": "[Categorical] The type of agricultural land or management system. Either estate ('Estates') or smaller farms ('Smallholdings')",
+            "description_ms": "[Kategori] Jenis tanah pertanian atau sistem pengurusan. Sama ada ladang ('Estate') atau kebun kecil ('Smallholdings')"
+        },
+        {
+            "name": "area_1000_hectares",
+            "title_en": "Area ('000 Hectares)",
+            "title_ms": "Keluasan ('000 Hektar)",
+            "description_en": "[Float] Planted area measured in thousands hectares unit",
+            "description_ms": "[Apung] Keluasan kawasan tanaman diukur dalam unit seribu hektar"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "crops": "Crops",
+        "items": "Items",
+        "area_thousand_hectares": "Area ('000 Hectares)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "crops": "Tanaman",
+        "items": "Item",
+        "area_thousand_hectares": "Keluasan ('000 Hektar)"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,109 @@
+{
+    "title_en": "MysIDC 11.6: Production of Major Timber Products by State",
+    "title_ms": "MysIDC 11.6: Pengeluaran Produk Kayu-Kayan Utama Mengikut Negeri",
+    "title_sort": 1,
+    "description_en": "Production of major timber products with a breakdown by state",
+    "description_ms": "Pengeluaran produk kayu-kayan utama dengan pecahan mengikut negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data refers to the establishments registered with the Forestry Department Peninsular Malaysia, Sabah Forestry Department, Forests Department Sarawak, and Sarawak Timber Industry Development Corporation.",
+    "methodology_ms": "Data merujuk kepada data penubuhan yang berdaftar dengan Jabatan Perhutanan Semenanjung Malaysia, Jabatan Perhutanan Sabah, Jabatan Hutan Sarawak, dan Perbadanan Kemajuan Perusahaan Kayu Sarawak.",
+    "caveat_en": "'Logs' product data exclude production of hevea logs, poles, coconut trunks and oil palm trunks.\n'Blockboard' product data has not been published starting from 2013.\nSelangor includes W.P. Kuala Lumpur.",
+    "caveat_ms": "Data produk 'Balak' tidak termasuk pengeluaran balak hevea, tiang, batang kelapa, dan batang kelapa sawit.\nData produk 'Blockboard' tidak diterbitkan bermula dari 2013.\nSelangor merangkumi W.P. Kuala Lumpur.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-6.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-6.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2018,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "state_region",
+            "title_en": "State/Region",
+            "title_ms": "Negeri/Wilayah",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia. ('Selangor') includes W.P. Kuala Lumpur",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia. ('Selangor') termasuk W.P. Kuala Lumpur "
+        },
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "major_timber_products",
+            "title_en": "Major Timber Products",
+            "title_ms": "Produk Kayu Utama",
+            "description_en": "[Categorical] The type of major timber products produced",
+            "description_ms": "[Kategori] Jenis produk kayu utama yang dihasilkan"
+        },
+        {
+            "name": "cubic_metres",
+            "title_en": "Volume (Cubic Metres)",
+            "title_ms": "Isipadu (Meter Padu)",
+            "description_en": "[Float] The volume of timber products produced, measured in cubic metres",
+            "description_ms": "[Apung] Isipadu produk kayu yang dihasilkan, diukur dalam meter padu"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "state_region": "State/Region",
+        "date": "Date",
+        "major_timber_products": "Major Timber Products",
+        "cubic_metres": "Volume (Cubic Metres)"
+    },
+    "translations_ms": {
+        "state_region": "Negeri/Wilayah",
+        "date": "Tarikh",
+        "major_timber_products": "Produk Kayu Utama",
+        "cubic_metres": "Isipadu (Meter Padu)"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,171 @@
+{
+    "title_en": "MysIDC 11.16: Status of River Water Quality based on Main Pollutants",
+    "title_ms": "MysIDC 11.16: Status Kualiti Air Sungai Berdasarkan Bahan Pencemar Utama",
+    "title_sort": 1,
+    "description_en": "Status of river water quality based on main pollutants, including suspended solids, biochemical oxygen demand (BOD), and ammoniacal nitrogen. This data helps assess the pollution levels of river water and categorize river basins as polluted, slightly polluted, or clean based on these parameters.",
+    "description_ms": "Status kualiti air sungai berdasarkan bahan pencemar utama, termasuk pepejal tersuspensi, permintaan oksigen biokimia (BOD), dan nitrogen ammonia. Data ini membantu menilai tahap pencemaran air sungai dan mengkategorikan lembangan sungai sebagai tercemar, sedikit tercemar, atau bersih berdasarkan parameter-parameter ini.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data Sourced from Department of Environment",
+    "methodology_ms": "Sumber data dari Jabatan Alam Sekitar",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-16.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mysidc_11-16.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2000,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "MysIDC Indicators",
+            "subcategory_ms": "Penunjuk MysIDC",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "total_river_basins_monitored",
+            "title_en": "Total River Basins Monitored",
+            "title_ms": "Jumlah Lembangan Sungai yang Dipantau",
+            "description_en": "[Integer] The total number of river basins that were monitored for water quality",
+            "description_ms": "[Integer] Jumlah lembangan sungai yang dipantau untuk kualiti air"
+        },
+        {
+            "name": "biochemical_oxygen_demand_polluted",
+            "title_en": "Biochemical Oxygen Demand (Polluted)",
+            "title_ms": "Permintaan Oksigen Biokimia (Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as polluted based on biochemical oxygen demand (BOD) levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap permintaan oksigen biokimia (BOD)"
+        },
+        {
+            "name": "biochemical_oxygen_demand_slightly_polluted",
+            "title_en": "Biochemical Oxygen Demand (Slightly Polluted)",
+            "title_ms": "Permintaan Oksigen Biokimia (Sedikit Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as slightly polluted based on biochemical oxygen demand (BOD) levels",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap permintaan oksigen biokimia (BOD)"
+        },
+        {
+            "name": "biochemical_oxygen_demand_clean",
+            "title_en": "Biochemical Oxygen Demand (Clean)",
+            "title_ms": "Permintaan Oksigen Biokimia (Bersih)",
+            "description_en": "[Integer] The number of river basins classified as clean based on biochemical oxygen demand (BOD) levels.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap permintaan oksigen biokimia (BOD)."
+        },
+        {
+            "name": "ammoniacal_nitrogen_polluted",
+            "title_en": "Ammoniacal Nitrogen (Polluted)",
+            "title_ms": "Nitrogen Ammonia (Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as polluted based on ammoniacal nitrogen levels.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap nitrogen ammonia."
+        },
+        {
+            "name": "ammoniacal_nitrogen_slightly_polluted",
+            "title_en": "Ammoniacal Nitrogen (Slightly Polluted)",
+            "title_ms": "Nitrogen Ammonia (Sedikit Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as slightly polluted based on ammoniacal nitrogen levels.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap nitrogen ammonia."
+        },
+        {
+            "name": "ammoniacal_nitrogen_clean",
+            "title_en": "Ammoniacal Nitrogen (Clean)",
+            "title_ms": "Nitrogen Ammonia (Bersih)",
+            "description_en": "[Integer] The number of river basins classified as clean based on ammoniacal nitrogen levels.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap nitrogen ammonia."
+        },
+        {
+            "name": "polluted_suspended_solids",
+            "title_en": "Polluted Suspended Solids",
+            "title_ms": "Pepejal Tersuspensi Tercemar",
+            "description_en": "[Integer] The number of river basins classified as polluted based on the levels of suspended solids.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai tercemar berdasarkan tahap pepejal tersuspensi."
+        },
+        {
+            "name": "suspended_solids_slightly_polluted",
+            "title_en": "Suspended Solids (Slightly Polluted)",
+            "title_ms": "Pepejal Tersuspensi (Sedikit Tercemar)",
+            "description_en": "[Integer] The number of river basins classified as slightly polluted based on the levels of suspended solids.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai sedikit tercemar berdasarkan tahap pepejal tersuspensi."
+        },
+        {
+            "name": "suspended_solids_clean",
+            "title_en": "Suspended Solids (Clean)",
+            "title_ms": "Pepejal Tersuspensi (Bersih)",
+            "description_en": "[Integer] The number of river basins classified as clean based on the levels of suspended solids.",
+            "description_ms": "[Integer] Bilangan lembangan sungai yang diklasifikasikan sebagai bersih berdasarkan tahap pepejal tersuspensi."
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "total_river_basins_monitored": "Total River Basins Monitored",
+        "biochemical_oxygen_demand_polluted": "Biochemical Oxygen Demand (Polluted)",
+        "biochemical_oxygen_demand_slightly_polluted": "Biochemical Oxygen Demand (Slightly Polluted)",
+        "biochemical_oxygen_demand_clean": "Biochemical Oxygen Demand (Clean)",
+        "ammoniacal_nitrogen_polluted": "Ammoniacal Nitrogen (Polluted)",
+        "ammoniacal_nitrogen_slightly_polluted": "Ammoniacal Nitrogen (Slightly Polluted)",
+        "ammoniacal_nitrogen_clean": "Ammoniacal Nitrogen (Clean)",
+        "polluted_suspended_solids": "Polluted Suspended Solids",
+        "suspended_solids_slightly_polluted": "Suspended Solids (Slightly Polluted)",
+        "suspended_solids_clean": "Suspended Solids (Clean)"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "total_river_basins_monitored": "Jumlah Lembangan Sungai yang Dipantau",
+        "biochemical_oxygen_demand_polluted": "Permintaan Oksigen Biokimia (Tercemar)",
+        "biochemical_oxygen_demand_slightly_polluted": "Permintaan Oksigen Biokimia (Sedikit Tercemar)",
+        "biochemical_oxygen_demand_clean": "Permintaan Oksigen Biokimia (Bersih)",
+        "ammoniacal_nitrogen_polluted": "Nitrogen Ammonia (Tercemar)",
+        "ammoniacal_nitrogen_slightly_polluted": "Nitrogen Ammonia (Sedikit Tercemar)",
+        "ammoniacal_nitrogen_clean": "Nitrogen Ammonia (Bersih)",
+        "polluted_suspended_solids": "Pepejal Tersuspensi Tercemar",
+        "suspended_solids_slightly_polluted": "Pepejal Tersuspensi (Sedikit Tercemar)",
+        "suspended_solids_clean": "Pepejal Tersuspensi (Bersih)"
+    },
+    "related_datasets": []
+}
