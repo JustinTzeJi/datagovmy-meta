@@ -71,7 +71,7 @@
 			"name": "district",
 			"title_en": "District",
 			"title_ms": "Daerah",
-			"description_en": "[Categorical] One of 156 administrative districts, or the whole state/country ('overall')",
+			"description_en": "[Categorical] One of 156 administrative districts, or entire state/country ('overall')",
 			"description_ms": "[Kategori] Satu daripada 156 daerah pentadbiran, atau kesuluruhan negeri/negara ('overall')"
 		},
 		{
@@ -107,14 +107,14 @@
 		"state": "State",
 		"district": "District",
 		"sex": "Sex",
-		"rate": "Death Rate ('00000)"
+		"rate": "Death Rate"
 	},
 	"translations_ms": {
 		"date": "Tarikh",
 		"state": "Negeri",
 		"district": "Daerah",
 		"sex": "Jantina",
-		"rate": "Kadar Kematian ('00000)"
+		"rate": "Kadar Kematian"
 	},
 	"related_datasets": []
 }

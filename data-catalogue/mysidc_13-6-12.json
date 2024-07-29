@@ -69,8 +69,8 @@
             "name": "variable",
             "title_en": "Variable",
             "title_ms": "Pembolehubah",
-            "description_en": "[Categorical] Either total homicide cases ('total') or number of solving cases ('solving_cases')",
-            "description_ms": "[Kategori] Sama ada jumlah kes pembunuhan dengan niat ('total) atau bilangan kes selesai ('solving_cases')"
+            "description_en": "[Categorical] Either total homicide cases ('total') or number of solving cases ('solving_case')",
+            "description_ms": "[Kategori] Sama ada jumlah kes pembunuhan dengan niat ('total) atau bilangan kes selesai ('solving_case')"
         },
         {
             "name": "number_of_cases",

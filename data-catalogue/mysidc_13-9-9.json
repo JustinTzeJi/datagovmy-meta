@@ -11,25 +11,27 @@
     "next_update": "",
     "methodology_en": "",
     "methodology_ms": "",
-    "caveat_en": "\u2014",
-    "caveat_ms": "\u2014",
+    "caveat_en": "1. Position status includes Permanent Position, Temporary Position, Jawatan Khas untuk Penyandang, Training Reserve Position, Group Position, Reserve Position and Stagnant Position\n2. Position status excludes Part-Time 29000, Short-Service 29000, Temporary 29000, Contract 29000, Position Based on Contribution and Contract 29000 (PRE-2)\n3. Data excludes the Judiciary (Judges of Superior Court)\n4. Data excludes Police and Military",
+    "caveat_ms": "1. Status jawatan termasuk Jawatan Tetap, Jawatan Sementara, Jawatan Simpanan Latihan, Jawatan Kumpulan, Jawatan Tambahsentara dan Jawatan Jumud\n2. Status jawatan tidak termasuk Sambilan 29000, Khidmat Singkat 29000, Sandaran 29000, Kontrak 29000, Jawatan Berasaskan Caruman dan Kontrak 29000 (PRE-2)\n3. Data tidak termasuk Badan Kehakiman\n4. Data tidak termasuk Polis dan Tentera",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_13-9-9.parquet",
     "link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-9-9.csv",
     "frequency": "YEARLY",
-    "geography": [],
-    "demography": [],
+    "geography": [
+        "NATIONAL",
+        "STATE"
+    ],
+    "demography": [
+        "SEX"
+    ],
     "dataset_begin": 2018,
     "dataset_end": 2022,
     "data_source": [
         "DOSM",
         "JPA"
     ],
-    "data_source_granular": [
-        "NATIONAL",
-        "STATE"
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",

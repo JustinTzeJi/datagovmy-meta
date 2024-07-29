@@ -19,7 +19,9 @@
     "link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-8-3.csv",
     "frequency": "YEARLY",
     "geography": [],
-    "demography": [],
+    "demography": [
+        "AGE"
+    ],
     "dataset_begin": 2014,
     "dataset_end": 2021,
     "data_source": [

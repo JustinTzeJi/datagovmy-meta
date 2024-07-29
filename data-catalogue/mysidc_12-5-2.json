@@ -22,6 +22,7 @@
         "NATIONAL"
     ],
     "demography": [
+        "AGE",
         "SEX"
     ],
     "dataset_begin": 2016,
@@ -84,8 +85,8 @@
             "name": "status",
             "title_en": "Status",
             "title_ms": "Status",
-            "description_en": "[Categorical] Status of data, either estimated ('e') or preliminary ('p)",
-            "description_ms": "[Kategori] Status data, sama ada anggaran ('e') ataupun awal ('p')."
+            "description_en": "[Categorical] Status of data, either estimated ('e'), preliminary ('p), revised ('r') or final ('f')",
+            "description_ms": "[Kategori] Status data, sama ada anggaran ('e'), awalan ('p'), dikemaskini ('r') atau akhir ('f')"
         }
     ],
     "dataviz": [
@@ -113,7 +114,7 @@
         "sex": "Jantina",
         "age": "Umur",
         "graduates": "Bilangan Siswazah ('000)",
-        "status": "Bilangan Siswazah ('000)"
+        "status": "Status"
     },
     "related_datasets": []
 }

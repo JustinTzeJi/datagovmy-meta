@@ -22,7 +22,9 @@
 		"NATIONAL",
 		"STATE"
 	],
-	"demography": [],
+	"demography": [
+		"AGE"
+	],
 	"dataset_begin": 2001,
 	"dataset_end": 2022,
 	"data_source": [
@@ -96,13 +98,13 @@
 		"date": "Date",
 		"state": "State",
 		"age": "Age",
-		"rate": "Fertility Rate ('000)"
+		"rate": "Fertility Rate"
 	},
 	"translations_ms": {
 		"date": "Tarikh",
 		"state": "Negeri",
 		"age": "Umur",
-		"rate": "Kadar Kesuburan ('000)"
+		"rate": "Kadar Kesuburan"
 	},
 	"related_datasets": []
 }

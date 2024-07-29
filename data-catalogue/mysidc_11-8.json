@@ -11,8 +11,8 @@
     "next_update": "",
     "methodology_en": "",
     "methodology_ms": "",
-    "caveat_en": "1. Data for Medicinal plants has not been published from year 2010 and above\n\n2. Data for Fruit trees has not been published from year 2009 and above\n\n3. Data for Community forest has not been published from year 2008 and above\n\n4. Data for Silviculture treatment are published starting from 2010\n\n5. Data for Mangroves are published starting from 2006",
-    "caveat_ms": "1. Data untuk tumbuhan ubatan tidak diterbitkan sejak tahun 2010 \n\n2. Data untuk pokok buah tidak diterbitkan sejak tahun 2009\n\n3. Data untuk hutan perkampungan tidak diterbitkan sejak tahun 2008\n\n4. Data untuk rawatan silvikultur diterbitkan mulai tahun 2010\n\n5. Data untuk tanaman bakau diterbitkan mulai tahun 2006",
+    "caveat_en": "1. Data for Medicinal plants has not been published from year 2010 and above\n2. Data for Fruit trees has not been published from year 2009 and above\n3. Data for Community forest has not been published from year 2008 and above\n4. Data for Silviculture treatment are published starting from 2010\n5. Data for Mangroves are published starting from 2006",
+    "caveat_ms": "1. Data untuk tumbuhan ubatan tidak diterbitkan sejak tahun 2010 \n2. Data untuk pokok buah tidak diterbitkan sejak tahun 2009\n3. Data untuk hutan perkampungan tidak diterbitkan sejak tahun 2008\n4. Data untuk rawatan silvikultur diterbitkan mulai tahun 2010\n5. Data untuk tanaman bakau diterbitkan mulai tahun 2006",
     "publication_en": "\u2014",
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.dosm.gov.my/odin/mysidc_11-8.parquet",
@@ -63,7 +63,7 @@
             "title_ms": "Jenis sumber hutan",
             "description_en": "[Categorical] One of 7 forest resources, enrichment planting ('Enrichment planting'), forest plantation ('Forest plantation'), mangroves ('Mangroves'), medicinal plants ('Medicinal plants'), fruit trees ('Fruit trees'), community forest ('Community forest'), silviculture treatment ('Silviculture treatment')",
             "description_ms": "[Kategori] Satu daripada 7 sumber hutan, tanaman mengaya ('Enrichment planting'), ladang hutan ('Forest plantation'), tanaman bakau ('Mangroves'), tumbuhan perubatan ('Medicinal plants'), pokok buah ('Fruit trees'), hutan perkampungan ('Community forest'), rawatan silvikultur ('Silviculture treatment')"
-        }
+        },
         {
             "name": "hectares",
             "title_en": "Hactares",

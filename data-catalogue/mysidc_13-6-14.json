@@ -21,7 +21,9 @@
     "geography": [
         "STATE"
     ],
-    "demography": [],
+    "demography": [
+        "SEX"
+    ],
     "dataset_begin": 2017,
     "dataset_end": 2022,
     "data_source": [

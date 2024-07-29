@@ -19,7 +19,9 @@
 	"link_csv": "https://storage.dosm.gov.my/odin/mysidc_13-9-11.csv",
 	"frequency": "YEARLY",
 	"geography": [],
-	"demography": [],
+	"demography": [
+		"SEX"
+	],
 	"dataset_begin": 2019,
 	"dataset_end": 2022,
 	"data_source": [
