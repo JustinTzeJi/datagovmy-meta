@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 3.3.2: Tuberculosis incidence per 1,000 population by state",
     "title_ms": "SDG 3.3.2: Insidens batuk kering bagi setiap 100,000 penduduk mengikut negeri",
-    "title_sort": 5,
+    "title_sort": 8,
     "description_en": "Annual number of tuberculosis incidences per 100,000 population by state",
     "description_ms": "Bilangan tahunan insiden tuberkulosis bagi setiap 100,000 penduduk mengikut negeri",
     "exclude_openapi": false,
@@ -28,8 +28,7 @@
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -62,8 +61,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states",
-            "description_ms": "[Kategori] Satu daripada 16 negeri"
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
         },
         {
             "name": "incidence",

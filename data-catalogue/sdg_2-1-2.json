@@ -1,9 +1,9 @@
 {
     "title_en": "SDG 2.1.2: Annual Prevalence of Moderate or Severe Food Insecurity in Population by Sex",
     "title_ms": "SDG 2.1.2: Prevalens Tahunan Tiada jaminan Makanan yang Sederhana atau Teruk dalam kalangan Penduduk mengikut Jantina",
-    "title_sort": 1,
-    "description_en": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES).",
-    "description_ms": "Prevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk, berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale, FIES).",
+    "title_sort": 2,
+    "description_en": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+    "description_ms": "Prevalens tiada jaminan makanan yang sederhana atau teruk dalam penduduk, berdasarkan Skala Pengalaman Tiada Jaminan Makanan (Food Insecurity Experience Scale, FIES)",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
@@ -30,8 +30,7 @@
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -39,7 +38,8 @@
             "category_ms": "Indikator Statistik",
             "category_sort": 100,
             "subcategory_en": "SDG Indicators",
-            "subcategory_ms": "Penunjuk SDG"
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
         },
         {
             "site": "opendosm",

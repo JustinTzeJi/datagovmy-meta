@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 3.3.3: Malaria incidence per 1,000 population by state",
     "title_ms": "SDG 3.3.3: Insidens malaria bagi setiap 1,000 penduduk mengikut negeri",
-    "title_sort": 6,
+    "title_sort": 9,
     "description_en": "Annual incidence of malaria per 1,000 population by state",
     "description_ms": "Insiden tahunan malaria bagi setiap 1,000 penduduk mengikut negeri",
     "exclude_openapi": false,
@@ -28,8 +28,7 @@
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -62,8 +61,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states",
-            "description_ms": "[Kategori] Satu daripada 16 negeri"
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri atau Malaysia"
         },
         {
             "name": "incidence",

@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 2.2.2: Prevalance of Overweight or Wasting Children by State",
     "title_ms": "SDG 2.2.2: Kelaziman Kanak-Kanak Berlebihan Berat Badan atau Menyusut Mengikut Negeri",
-    "title_sort": 2,
+    "title_sort": 5,
     "description_en": "Proportion of overweight or wasting children broken down by state",
     "description_ms": "Peratusan kanak-kanak yang berlebihan berat badan atau menyusut dipecahkan mengikuti negeri",
     "exclude_openapi": false,
@@ -19,7 +19,8 @@
     "link_csv": "https://storage.dosm.gov.my/sdg/sdg_2-2-2_state.csv",
     "frequency": "YEARLY",
     "geography": [
-        "NATIONAL"
+        "NATIONAL",
+        "STATE"
     ],
     "demography": [],
     "dataset_begin": 2022,
@@ -27,8 +28,7 @@
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -61,8 +61,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of 16 states.",
-            "description_ms": "[Kategori] Satu daripada 16 negeri."
+            "description_en": "[Categorical] One of 16 states, or Malaysia",
+            "description_ms": "[Kategori] Satu daripada 16 negeri, atau Malaysia"
         },
         {
             "name": "percentage",
@@ -94,9 +94,9 @@
                     "x": "State",
                     "y": "Percentage"
                 },
-            "precision": 1,
-            "color": "greens",
-            "geojson": "state"
+                "precision": 1,
+                "color": "greens",
+                "geojson": "state"
             }
         }
     ],
@@ -105,14 +105,14 @@
         "y1": "Percentage",
         "indicator": "Indicator",
         "state": "State",
-        "percentage": "Percentage"
+        "percentage": "Percentage (%)"
     },
     "translations_ms": {
         "date": "Tarikh",
         "y1": "Peratusan",
         "indicator": "Indikator",
         "state": "Negeri",
-        "percentage": "Peratusan"
+        "percentage": "Peratusan (%)"
     },
     "related_datasets": []
 }

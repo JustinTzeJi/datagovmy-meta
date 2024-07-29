@@ -1,9 +1,9 @@
 {
     "title_en": "SDG 2.2.1: Prevalence of Stunting among Children under 5 years of age",
     "title_ms": "SDG 2.2.1: Prevalens Pembantutan dalam kalangan Kanak-kanak di bawah umur 5 tahun",
-    "title_sort": 1,
-    "description_en": "Prevalence of stunting (height for age is <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age, and categorized by sex and geographic strata for the reference period.",
-    "description_ms": "Prevalens pembantutan (ketinggian bagi umur adalah <-2 sisihan piawai daripada median Standard Pertumbuhan Kanak-kanak Pertubuhan Kesihatan Sedunia (World Health Organization, WHO) dalam kalangan kanak-kanak di bawah umur 5 tahun dan dikategorikan mengikut jantina dan strata geografi dalam tempoh rujukan.",
+    "title_sort": 3,
+    "description_en": "Prevalence of stunting (height for age is <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age, and categorized by sex and geographic strata for the reference period",
+    "description_ms": "Prevalens pembantutan (ketinggian bagi umur adalah <-2 sisihan piawai daripada median Standard Pertumbuhan Kanak-kanak Pertubuhan Kesihatan Sedunia (World Health Organization, WHO) dalam kalangan kanak-kanak di bawah umur 5 tahun dan dikategorikan mengikut jantina dan strata geografi dalam tempoh rujukan",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
@@ -21,14 +21,16 @@
     "geography": [
         "NATIONAL"
     ],
-    "demography": ["SEX", "STRATA"],
+    "demography": [
+        "SEX",
+        "STRATA"
+    ],
     "dataset_begin": 2015,
     "dataset_end": 2022,
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -36,7 +38,8 @@
             "category_ms": "Indikator Statistik",
             "category_sort": 100,
             "subcategory_en": "SDG Indicators",
-            "subcategory_ms": "Penunjuk SDG"
+            "subcategory_ms": "Penunjuk SDG",
+            "subcategory_sort": 20
         },
         {
             "site": "opendosm",
@@ -68,14 +71,14 @@
             "title_en": "Group",
             "title_ms": "Kumpulan",
             "description_en": "[Categorical] Specifies groups within the demographic category. Either grouped by male gender ('Male'), female ('Female'), urban ('Urban'), rural ('Rural') or all children under 5 years old without distinguishing between sex or strata ('Overall')",
-            "description_ms": "[Kategori] Merupakan kumpulan-kumpulan dalam kategori demografi. Sama ada dikumpulkan mengikut jantina lelaki ('Male'), jantina perempuan ('Female'), bandar ('Urban'), luar bandar ('Rural') atau semua kanak-kanak di bawah 5 tahun tanpa membezakan jantina atau strata ('Overall')" 
+            "description_ms": "[Kategori] Merupakan kumpulan-kumpulan dalam kategori demografi. Sama ada dikumpulkan mengikut jantina lelaki ('Male'), jantina perempuan ('Female'), bandar ('Urban'), luar bandar ('Rural') atau semua kanak-kanak di bawah 5 tahun tanpa membezakan jantina atau strata ('Overall')"
         },
         {
             "name": "percentage",
-            "title_en": "Percentage (%)",
-            "title_ms": "Peratusan (%)",
-            "description_en": "[Float] The percentage of children under 5 years of age experiencing stunting",
-            "description_ms": "[Apung] Peratusan kanak-kanak di bawah umur 5 tahun yang mengalami pembantutan"
+            "title_en": "Percentage",
+            "title_ms": "Peratusan",
+            "description_en": "[Float] The percentage (%) of children under 5 years of age experiencing stunting",
+            "description_ms": "[Apung] Peratusan (%) kanak-kanak di bawah umur 5 tahun yang mengalami pembantutan"
         }
     ],
     "dataviz": [
@@ -95,13 +98,13 @@
         "demographic": "Demographic",
         "date": "Date",
         "group": "Group",
-        "percentage": "Percentage"
+        "percentage": "Percentage (%)"
     },
     "translations_ms": {
         "demographic": "Demografi",
         "date": "Tarikh",
         "group": "Kumpulan",
-        "percentage": "Peratusan"
+        "percentage": "Peratusan (%)"
     },
     "related_datasets": []
 }

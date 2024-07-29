@@ -1,7 +1,7 @@
 {
     "title_en": "SDG 2.2.2: Prevalance of Overweight or Wasting Children by Year",
     "title_ms": "SDG 2.2.2: Kelaziman Kanak-Kanak Berlebihan Berat Badan atau Menyusut Mengikut Tahun",
-    "title_sort": 3,
+    "title_sort": 6,
     "description_en": "Proportion of overweight or wasting children broken down by year",
     "description_ms": "Peratusan kanak-kanak yang berlebihan berat badan atau menyusut dipecahkan mengikuti tahun",
     "exclude_openapi": false,
@@ -9,7 +9,7 @@
     "data_as_of": "2022",
     "last_updated": "2024-07-23 10.00",
     "next_update": "\u2014",
-    "methodology_en": "This data is based on ",
+    "methodology_en": "",
     "methodology_ms": "",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
@@ -27,8 +27,7 @@
     "data_source": [
         "DOSM"
     ],
-    "data_source_granular": [
-    ],
+    "data_source_granular": [],
     "site_category": [
         {
             "site": "datagovmy",
@@ -89,13 +88,13 @@
         "date": "Date",
         "y1": "Percentage",
         "indicator": "Indicator",
-        "percentage": "Percentage"
+        "percentage": "Percentage (%)"
     },
     "translations_ms": {
         "date": "Tarikh",
         "y1": "Peratusan",
         "indicator": "Indikator",
-        "percentage": "Peratusan"
+        "percentage": "Peratusan (%)"
     },
     "related_datasets": []
 }
