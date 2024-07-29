@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 8.5.2: Unemployment Rate by Age & Sex",
-    "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Umur & Jantina",
+    "title_en": "SDG 8.5.2: Annual Unemployment Rate by Age & Sex",
+    "title_ms": "SDG 8.5.2: Kadar Pengangguran Tahunan mengikut Umur & Jantina",
     "title_sort": 21,
-    "description_en": "Annual unemployment rate, broken down by age group and sex",
-    "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut kumpulan umur dan jantina",
+    "description_en": "Annual unemployment rate, broken down by age group and sex. The unemployment rate measures the number of people actively looking for a job as a percentage (%) of the labor force.",
+    "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut kumpulan umur dan jantina. Kadar pengangguran mengukur bilangan orang yang aktif mencari pekerjaan sebagai peratus (%) daripada tenaga kerja.",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",
@@ -75,8 +75,8 @@
             "name": "rate",
             "title_en": "Unemployment Rate",
             "title_ms": "Kadar Pengangguran",
-            "description_en": "[Float] Unemployment rate, expressed as percentage (%)",
-            "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%)"
+            "description_en": "[Float] Unemployment rate, expressed as percentage (%) of the labour force in Malaysia",
+            "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%) daripada tenaga kerja di Malaysia"
         }
     ],
     "dataviz": [

@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 5.b.1: Proportion of Individuals who own a Mobile Telephone by State & Administrative District",
-    "title_ms": "SDG 5.b.1: Peratusan Individu yang Memiliki Telefon Bimbit mengikut Negeri & Daerah Pentadbiran",
+    "title_en": "SDG 5.b.1: Proportion of Individuals who own a Mobile Telephone by State & District",
+    "title_ms": "SDG 5.b.1: Peratusan Individu yang Memiliki Telefon Bimbit mengikut Negeri & Daerah",
     "title_sort": 17,
     "description_en": "Annual percentage of population who own a mobile telephone, broken down by state and administrative district",
     "description_ms": "Peratusan individu tahunan yang memiliki telefon bimbit, dengan pecahan mengikut negeri dan daerah pentadbiran",
@@ -54,8 +54,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories in Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan di Malaysia"
         },
         {
             "name": "district",

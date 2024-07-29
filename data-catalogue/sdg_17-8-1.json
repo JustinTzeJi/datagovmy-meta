@@ -9,8 +9,8 @@
     "data_as_of": "2021",
     "last_updated": "2024-07-24 00:00",
     "next_update": "\u2014",
-    "methodology_en": "Data sourced from ICT Use and Access by Individuals and Households Survey, DOSM",
-    "methodology_ms": "Sumber Data melalui Survei Penggunaan & Capaian ICT oleh Individu dan Isi Rumah, DOSM",
+    "methodology_en": "Data sourced from 'ICT Use and Access by Individuals and Households Survey' DOSM",
+    "methodology_ms": "Sumber Data melalui 'Survei Penggunaan & Capaian ICT oleh Individu dan Isi Rumah' DOSM",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -96,13 +96,13 @@
         "state": "State",
         "district": "District",
         "date": "Date",
-        "percentage": "Percentage"
+        "percentage": "Percentage (%)"
     },
     "translations_ms": {
         "state": "Negeri",
         "district": "Daerah",
         "date": "Tarikh",
-        "percentage": "Peratusan"
+        "percentage": "Peratusan (%)"
     },
     "related_datasets": []
 }

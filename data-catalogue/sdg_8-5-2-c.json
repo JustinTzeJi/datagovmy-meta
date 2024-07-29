@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 8.5.2: Unemployment Rate by Sex & State",
-    "title_ms": "SDG 8.5.2: Kadar Pengangguran mengikut Jantina & Negeri",
+    "title_en": "SDG 8.5.2: Annual Unemployment Rate by Sex & State",
+    "title_ms": "SDG 8.5.2: Kadar Pengangguran Tahunan mengikut Jantina & Negeri",
     "title_sort": 22,
     "description_en": "Annual unemployment rate, broken down by sex and state",
     "description_ms": "Kadar pengganguran tahunan, dengan pecahan mengikut jantina dan negeri",
@@ -75,8 +75,8 @@
             "name": "rate",
             "title_en": "Unemployment Rate (%)",
             "title_ms": "Kadar Pengangguran (%)",
-            "description_en": "[Float] Unemployment rate, expressed as percentage (%)",
-            "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%)"
+            "description_en": "[Float] Unemployment rate, expressed as percentage (%) of the labour force in Malaysia",
+            "description_ms": "[Apung] Kadar pengangguran, sebagai peratusan (%) daripada tenaga kerja di Malaysia"
         }
     ],
     "dataviz": [

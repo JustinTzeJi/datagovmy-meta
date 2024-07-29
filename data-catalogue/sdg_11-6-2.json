@@ -1,16 +1,16 @@
 {
-    "title_en": "SDG 11.6.2 : Mean Levels of Fine Particulate Matter in Cities",
-    "title_ms": "SDG 11.6.2 : Purata Tahap Zarah Halus di Bandarr",
+    "title_en": "SDG 11.6.2 : Annual Mean Levels of Fine Particulate Matter in Cities",
+    "title_ms": "SDG 11.6.2 : Purata Tahap Jirim Halus di Bandar",
     "title_sort": 25,
     "description_en": "Annual mean concentration of fine suspended particles matter (PM) across urban populations in cities, broken down by particle type.",
-    "description_ms": "Purata tahunan kepekatan zarah halus (PM) dalam kalangan penduduk bandar, dengan pecahan mengikut jenis zarah halus.",
+    "description_ms": "Purata tahunan kepekatan jirim halus (PM) dalam kalangan penduduk bandar, dengan pecahan mengikut jenis jirim halus.",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
     "last_updated": "2024-07-22",
     "next_update": "\u2014",
-    "methodology_en": "Data sourced from Department of Environment Malaysia",
-    "methodology_ms": "Sumber data dari Jabatan Alam Sekitar Malaysia",
+    "methodology_en": "Data sourced from Department of Environment",
+    "methodology_ms": "Sumber data dari Jabatan Alam Sekitar",
     "caveat_en": "\u2014",
     "caveat_ms": "\u2014",
     "publication_en": "\u2014",
@@ -52,9 +52,9 @@
         {
             "name": "matter_type",
             "title_en": "Type of Fine Particulate Matter",
-            "title_ms": "Jenis Zarah Halus",
-            "description_en": "[Categorical] Type of particulate matter (PM), either ('PM2.5') or ('PM10')",
-            "description_ms": "[Kategoril] Jenis zarah halus, sama ada ('PM2.5') atau ('PM10')"
+            "title_ms": "Jenis Jirim Halus",
+            "description_en": "[Categorical] Type of particulate matter. Either ('PM2.5') or ('PM10')",
+            "description_ms": "[Kategoril] Jenis jirim halus. Sama ada ('PM2.5') atau ('PM10')"
         },
         {
             "name": "date",
@@ -66,9 +66,9 @@
         {
             "name": "mean",
             "title_en": "Mean Concentration (micrograms per cubic meter)",
-            "title_ms": "Purata (mikrogram per meter padu)",
+            "title_ms": "Purata kepekatan (mikrogram per meter padu)",
             "description_en": "[Float] The mean concentration of fine particulate matter in cities (micrograms per cubic meter)",
-            "description_ms": "[Apung] Purata konsentrasi zarah halus di bandar-bandar (mikrogram per meter padu)"
+            "description_ms": "[Apung] Purata kepekatan jirim halus di bandar-bandar (mikrogram per meter padu)"
         }
     ],
     "dataviz": [
@@ -94,9 +94,9 @@
         "mean" : "Mean Concentration (micrograms per cubic meter)"
     },
     "translations_ms": {
-        "matter_type": "Jenis Zarah Halus",
+        "matter_type": "Jenis Jirim Halus",
         "date": "Tarikh",
-        "mean" : "Purata (mikrogram per meter padu)"
+        "mean" : "Purata kepekatan (mikrogram per meter padu)"
     },
     "related_datasets": []
 }

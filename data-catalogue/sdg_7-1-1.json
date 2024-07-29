@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 7.1.1: Proportion of Population with Access to Electricity by State & District",
-    "title_ms": "SDG 7.1.1: Peratusan populasi dengan Akses kepada Bekalan Elektrik, mengikut Negeri & Daerah",
+    "title_en": "SDG 7.1.1: Proportion of Population with Electricity Access by State & District",
+    "title_ms": "SDG 7.1.1: Peratusan Populasi dengan Akses Bekalan Elektrik, mengikut Negeri & Daerah",
     "title_sort": 19,
     "description_en": "Annual percentage of population with access to electricity, broken down by state and administrative district",
     "description_ms": "Peratusan populasi tahunan dengan akses kepada bekalan elektrik, dengan pecahan mengikut negeri dan daerah pentadbiran",
@@ -54,8 +54,8 @@
             "name": "state",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories in Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan di Malaysia"
         },
         {
             "name": "district",

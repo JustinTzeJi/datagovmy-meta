@@ -69,8 +69,8 @@
             "name": "percentage",
             "title_en": "Percentage (%)",
             "title_ms": "Peratusan (%)",
-            "description_en": "[Float] Percentage (%) of the Gross Domestic Product (GDP) attributed to sustainable fisheries for each state, or the entire Malaysia on the specified year",
-            "description_ms": "[Apung] Peratusan (%) Keluaran Dalam Negara Kasar (KDNK) yang disumbangkan oleh perikanan mampan bagi setiap negeri, atau keseluruhan Malaysia mengikut tahun"
+            "description_en": "[Float] Percentage (%) of the Gross Domestic Product (GDP) attributed to sustainable fisheries",
+            "description_ms": "[Apung] Peratusan (%) Keluaran Dalam Negara Kasar (KDNK) yang disumbangkan oleh perikanan mampan"
         }
     ],
     "dataviz": [

@@ -1,6 +1,6 @@
 {
-    "title_en": "SDG 11.1.1 : Proportion of Urban Population Living in Slums, Informal Settlements or Inadequate Housing by State",
-    "title_ms": "SDG 11.1.1 : Perkadaran Populasi Bandar yang menetap di Kawasan Setinggan, Tidak Rasmi, atau Tidak Memadai mengikut Negeri",
+    "title_en": "SDG 11.1.1: Proportion of Urban Population Living in Slums, Informal Settlements or Inadequate Housing by State",
+    "title_ms": "SDG 11.1.1: Perkadaran Populasi Bandar yang menetap di Kawasan Setinggan, Tidak Rasmi, atau Tidak Memadai mengikut Negeri",
     "title_sort": 24,
     "description_en": "Annual Proportion of the urban population living in slums, informal settlements, or inadequate housing,broken down by state",
     "description_ms": "Perkadaran Tahunan populasi bandar yang tinggal di kawasan setinggan, penempatan tidak rasmi, atau perumahan tidak memdai, dengan pecahan mengikut negeri",
@@ -20,7 +20,7 @@
     "frequency": "YEARLY",
     "geography": [
         "NATIONAL",
-        "DISTRICT"
+        "STATE"
     ],
     "demography": [],
     "dataset_begin": 2020,
