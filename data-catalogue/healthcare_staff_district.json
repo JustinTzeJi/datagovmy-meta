@@ -97,8 +97,8 @@
             "name": "bilangan",
             "title_en": "Number of Staff",
             "title_ms": "Bilangan Kakitangan",
-            "description_en": "[Float] The number of healthcare staff",
-            "description_ms": "[Apung] Bilangan kakitangan kesihatan"
+            "description_en": "[Integer] The number of healthcare staff",
+            "description_ms": "[Integer] Bilangan kakitangan kesihatan"
         }
     ],
     "dataviz": [

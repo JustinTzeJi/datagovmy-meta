@@ -98,8 +98,8 @@
             "name": "jantina",
             "title_en": "Jantina",
             "title_ms": "Sex",
-            "description_en": "[Float] Either male ('Lelaki'), female ('Perempuan'), or both ('Total')",
-            "description_ms": "[Apung] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau kedua-duanya ('Total')"
+            "description_en": "[Categorical] Either male ('Lelaki'), female ('Perempuan'), or both ('Total')",
+            "description_ms": "[Kategori] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau kedua-duanya ('Total')"
         },
         {
             "name": "bilangan",
