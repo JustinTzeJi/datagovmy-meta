@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 3.3.1: Number of new HIV infections per 1,000 uninfected population by sex",
-    "title_ms": "SDG 3.3.1: Bilangan jangkitan HIV baharu bagi setiap 1,000 penduduk yang tidak dijangkiti mengikut jantina",
+    "title_en": "SDG 3.3.1: Number of New HIV Infections per 1,000 Uninfected Population by Sex",
+    "title_ms": "SDG 3.3.1: Bilangan Jangkitan HIV Baharu bagi Setiap 1,000 penduduk yang Tidak Dijangkiti mengikut Jantina",
     "title_sort": 7,
-    "description_en": "Annual rate of new HIV infections per 1,000 uninfected population broken down by sex",
-    "description_ms": "Kadar tahunan jangkitan HIV baharu bagi setiap 1,000 penduduk yang tidak dijangkiti dipecahkan mengikut jantina",
+    "description_en": "Annual rate of new HIV infections per 1,000 uninfected population, broken down by sex",
+    "description_ms": "Kadar tahunan jangkitan HIV baharu bagi setiap 1,000 penduduk yang tidak dijangkiti, dengan pecahan mengikut jantina",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",

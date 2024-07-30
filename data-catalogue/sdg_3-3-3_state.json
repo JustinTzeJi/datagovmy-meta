@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 3.3.3: Malaria incidence per 1,000 population by state",
-    "title_ms": "SDG 3.3.3: Insidens malaria bagi setiap 1,000 penduduk mengikut negeri",
+    "title_en": "SDG 3.3.3: Malaria Incidence per 1,000 Population by State",
+    "title_ms": "SDG 3.3.3: Insidens Malaria bagi Setiap 1,000 Penduduk mengikut Negeri",
     "title_sort": 9,
-    "description_en": "Annual incidence of malaria per 1,000 population by state",
-    "description_ms": "Insiden tahunan malaria bagi setiap 1,000 penduduk mengikut negeri",
+    "description_en": "Annual incidence of malaria per 1,000 population, broken down by state",
+    "description_ms": "Insiden tahunan malaria bagi setiap 1,000 penduduk, dengan pecahan mengikut negeri",
     "exclude_openapi": false,
     "manual_trigger": "",
     "data_as_of": "2022",

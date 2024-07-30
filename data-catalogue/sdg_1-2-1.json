@@ -1,9 +1,9 @@
 {
-    "title_en": "SDG 1.2.1 : Proportion of Population living below the National Poverty Line by Sex & District",
-    "title_ms": "SDG 1.2.1 : Perkadaran Populasi yang hidup dibawah the Garisan Kemiskinan Nasional mengikut Jantina & Daerah",
+    "title_en": "SDG 1.2.1: Proportion of Population living below the National Poverty Line by Sex & District",
+    "title_ms": "SDG 1.2.1: Perkadaran Populasi yang hidup dibawah the Garisan Kemiskinan Nasional mengikut Jantina & Daerah",
     "title_sort": 1,
-    "description_en": "Annual proportion of the population living below the national poverty line, disaggregated by sex and district",
-    "description_ms": "Annual perkadaran populasi yang hidup di bawah garis kemiskinan nasional, dipisahkan mengikut jantina dan daerah",
+    "description_en": "Annual proportion of the population living below the national poverty line, broken down by sex and district",
+    "description_ms": "Annual perkadaran populasi yang hidup di bawah garis kemiskinan nasional, dengan pecahan mengikut jantina dan daerah",
     "exclude_openapi": false,
     "manual_trigger": "2024-07-23 10:45:00",
     "data_as_of": "2022",
