@@ -1,0 +1,118 @@
+{
+    "title_en": "Public Sector Health Expenditure for Providers & Functions of Health Care",
+    "title_ms": "Perbelanjaan Kesihatan Sektor Awam untuk Pengelola & Fungsi Penjagaan Kesihatan",
+    "title_sort": 10,
+    "description_en": "The data are based strictly on the Malaysia National Health Accounts (MNHA) Framework. The framework classifies all expenditures into three main entities; Sources of financing (MS), Providers of health care (MP), and Functions of health care (MF). Sources of financing (MS) are defined as entities that directly incur the expenditure and hence control and finance the amount of such expenditure. It includes the public sector expenditure inclusive of the federal government, state government, local authorities, social security funds and all other public entities, and the private sector consisting of private health insurance, managed care organizations, out-of-pocket expenditure, non-profit institutions and corporations.\nProviders of health care (MP) are defined as entities that produce and provide health care goods and services. These include categories of hospitals nursing and residential care facility providers, ambulatory health care providers, retail sale and medical goods providers, public health programme providers and general health administration.\nFunctions of health care (MF) are categorized as core functions of health care and health-related functions.Functions of health care include services of curative care, rehabilitative care, long term nursing care, ancillary services, out-patient medical goods, public health services, health administration and health insurance. \nHealth-related functions (MR) include capital formation, education and training of health personnel, research and development in health.",
+    "description_ms": "Data ini adalah berdasarkan rangka kerja Akaun Kesihatan Kebangsaan Malaysia (MNHA). Rangka kerja ini mengklasifikasikan semua perbelanjaan kepada tiga entiti utama; Sumber pembiayaan (MS), Penyedia penjagaan kesihatan (MP), dan Fungsi penjagaan kesihatan (MF). Sumber pembiayaan (MS) ditakrifkan sebagai entiti yang secara langsung menanggung perbelanjaan dan dengan itu mengawal dan membiayai jumlah perbelanjaan tersebut. Ia termasuk perbelanjaan sektor awam yang merangkumi kerajaan persekutuan, kerajaan negeri, pihak berkuasa tempatan, dana keselamatan sosial dan semua entiti awam lain, dan sektor swasta yang terdiri daripada insurans kesihatan swasta, organisasi pengurusan penjagaan, perbelanjaan sendiri, institusi bukan keuntungan dan korporat.\nPengelola penjagaan kesihatan (MP) ditakrifkan sebagai entiti yang menghasilkan dan menyediakan barangan dan perkhidmatan penjagaan kesihatan. Ini termasuk kategori hospital, penyedia kemudahan penjagaan kejururawatan dan kediaman, penyedia penjagaan kesihatan ambulatori, penyedia jualan runcit dan barangan perubatan, penyedia program kesihatan awam dan pentadbiran kesihatan umum.\nFungsi penjagaan kesihatan (MF) dikategorikan sebagai fungsi teras penjagaan kesihatan dan fungsi berkaitan kesihatan. Fungsi penjagaan kesihatan termasuk perkhidmatan penjagaan kuratif, penjagaan pemulihan, penjagaan kejururawatan jangka panjang, perkhidmatan tambahan, barangan perubatan pesakit luar, perkhidmatan kesihatan awam, pentadbiran kesihatan dan insurans kesihatan.\nFungsi berkaitan kesihatan (MR) termasuk pembentukan modal, pendidikan dan latihan kakitangan kesihatan, penyelidikan dan pembangunan dalam kesihatan.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data source from Ministry of Health (MOH)",
+    "methodology_ms": "Sumber data dari Kementerian Kesihatan Malaysia (KKM)",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mnha.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mnha.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2011,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM",
+        "MOH"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "mnha_code",
+            "title_en": "MNHA Code",
+            "title_ms": "Kod MNHA",
+            "description_en": "[String] Each code uniquely identifies the category of health care provider or function. Either MNHA codes start 'MP' for Providers of Health Care, 'MR' for Health-related Functions, and 'MF' for Functions of Health Care",
+            "description_ms": "[Rentetan] Setiap kod mengenal pasti kategori penyedia penjagaan kesihatan atau fungsi secara unik. Sama ada kod MNHA bermula dengan 'MP' untuk Pengelola Penjagaan Kesihatan, 'MR' untuk Fungsi Berkaitan Kesihatan, dan 'MF' untuk Fungsi Penjagaan Kesihatan."
+        },
+        {
+            "name": "providers_or_functions_of_health_care",
+            "title_en": "Providers/Functions of Health Care",
+            "title_ms": "Pengelola/Aktiviti Penjagaan Kesihatan",
+            "description_en": "[Categorical] The specific health care provider or function, such as 'All hospitals', 'Nursing and residential care facilities', or 'General health administration and insurance'",
+            "description_ms": "[Kategori] Pengelola atau aktiviti penjagaan kesihatan khusus, seperti 'Semua hospital', 'Kemudahan penjagaan kejururawatan dan kediaman', atau 'Pentadbiran kesihatan umum dan insurans'"
+        },
+        {
+            "name": "expenditure_rm_million",
+            "title_en": "Expenditure (RM Million)",
+            "title_ms": "Perbelanjaan (RM Juta)",
+            "description_en": "[Integer] The amount of expenditure in million Ringgit Malaysia (RM) for the specified provider or function",
+            "description_ms": "[Integer] Jumlah perbelanjaan dalam juta Ringgit Malaysia (RM) untuk pengelola atau aktiviti yang dinyatakan"
+        },
+        {
+            "name": "percentage",
+            "title_en": "Percentage (%)",
+            "title_ms": "Peratusan (%)",
+            "description_en": "[Float] The percentage (%) of total expenditure for each provider or function, calculated by dividing its expenditure by the total expenditure of the respective MNHA code category",
+            "description_ms": "[Apung] Peratusan (%) jumlah perbelanjaan untuk setiap pengelola atau aktiviti, dikira dengan membahagikan perbelanjaannya dengan jumlah perbelanjaan dalam kategori kod MNHA masing-masing"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "mnha_code": "MNHA Code",
+        "providers_or_functions_of_health_care": "Providers/Functions of Health Care",
+        "expenditure_rm_million": "Expenditure (RM Million)",
+        "percentage": "Percentage (%)"
+    },
+    "translations_ms": {
+        "date": "Date",
+        "mnha_code": "State",
+        "providers_or_functions_of_health_care": "Pengelola/Aktiviti Penjagaan Kesihatan",
+        "expenditure_rm_million": "Perbelanjaan (RM Juta)",
+        "percentage": "Peratusan (%)"
+    },
+    "related_datasets": []
+}

@@ -1,0 +1,117 @@
+{
+    "title_en": "Production of Mining & Quarrying Industries by Comodity & State",
+    "title_ms": "Penghasilan Industri Perlombongan & Pengkuarian Mengikut Komoditi & Negeri",
+    "title_sort": 9,
+    "description_en": "Production of mining & quarrying industries, broken down by comodity and state",
+    "description_ms": "Penghasilan industri perlombongan dan pengkuarian, mengikut pecahan komoditi dan negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/mining_quarry_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/mining_quarry_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE"
+    ],
+    "demography": [],
+    "dataset_begin": 2017,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+        },
+        {
+            "name": "type_of_minerals",
+            "title_en": "Type of Minerals",
+            "title_ms": "Jenis Mineral",
+            "description_en": "[Categorical] The classification of minerals, either metallic ('Metallic minerals') or non-metallic minerals ('Non-metallic minerals')",
+            "description_ms": "[Kategori] Klasifikasi mineral, seperti mineral logam ('Metallic minerals') atau bukan logam ('Non-metallic minerals')"
+        },
+        {
+            "name": "raw_materials",
+            "title_en": "Raw Materials",
+            "title_ms": "Bahan Mentah",
+            "description_en": "[String] The specific raw material being mined or quarried, such as coal ('Coal'), limestone ('Limestone'), etc.",
+            "description_ms": "[Rentetan] Bahan mentah khusus yang dilombong atau dikuarikan, seperti arang batu ('Coal'), batu kapur ('Limestone'), dan lain-lain."
+        },
+        {
+            "name": "commodity_production",
+            "title_en": "Commodity Production",
+            "title_ms": "Penghasilan Komoditi",
+            "description_en": "[Integer] The amount of raw material produced, measured in units (NULL)",
+            "description_ms": "[Integer] Jumlah bahan mentah yang dihasilkan, diukur dalam unit (NULL)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "type_of_minerals": "Type of Minerals",
+        "raw_materials": "Raw Materials",
+        "commodity_production": "Commodity Production"
+    },
+    "translations_ms": {
+        "date": "Date",
+        "state": "State",
+        "type_of_minerals": "Jenis Mineral",
+        "raw_materials": "Bahan Mentah",
+        "commodity_production": "Penghasilan Komoditi"
+    },
+    "related_datasets": []
+}

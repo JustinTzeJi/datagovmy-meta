@@ -1,0 +1,108 @@
+{
+    "title_en": "Expenditure for Educational Operation & Professional Development Malaysia",
+    "title_ms": "Perbelanjaan untuk Operasi Pendidikan & Pembangunan Profesional Malaysia",
+    "title_sort": 1,
+    "description_en": "Expenditure for Educational Operation and Professional Development Malaysia",
+    "description_ms": "Perbelanjaan untuk Operasi Pendidikan dan Pembangunan Profesional Malaysia",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "Data source from Finance Division, Ministry of Education Malaysia.",
+    "methodology_ms": "Sumber data dari Bahagian Kewangan, Kementerian Pendidikan Malaysia.",
+    "caveat_en": "For 2020 expenditure, the data provided is an estimate based on the ZRFM022 report dated February 8, 2021, as the Federal Government Financial Report has not yet been published. For the year 2021, expenditure is based on the B63 Report as of December 2021, dated January 31, 2022. Data for the years 2020, 2021, and 2022 are estimates.",
+    "caveat_ms": "Bagi perbelanjaan tahun 2020, data yang diberikan adalah anggaran berdasarkan laporan ZRFM022 bertarikh 8 Februari 2021 kerana Laporan Kewangan Kerajaan Persekutuan belum diterbitkan. Untuk perbelanjaan tahun 2021, data adalah berdasarkan Laporan B63 sehingga Disember 2021, bertarikh 31 Januari 2022. Data untuk tahun 2020, 2021, dan 2022 adalah anggaran.",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/edu_prof_expense.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/edu_prof_expense.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2012,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "programme",
+            "title_en": "Programme",
+            "title_ms": "Program",
+            "description_en": "[String] The name of the educational or professional development programme",
+            "description_ms": "[Rentetan] Nama program pendidikan atau pembangunan profesional"
+        },
+        {
+            "name": "actual_expenditure_rm",
+            "title_en": "Actual Expenditure (RM)",
+            "title_ms": "Perbelanjaan Sebenar (RM)",
+            "description_en": "[Float] The actual amount of money spent on the programme, in Malaysian Ringgit (RM)",
+            "description_ms": "[Apung] Jumlah wang sebenar yang dibelanjakan untuk program tersebut, dalam Ringgit Malaysia (RM)"
+        },
+        {
+            "name": "status_data",
+            "title_en": "Status",
+            "title_ms": "Status",
+            "description_en": "[Categorical] The current status of the data. Either estimated ('e'), preliminary ('p'), or finalized ('f')",
+            "description_ms": "[Kategori] Status semasa data. Sama ada anggaran ('e'), sementara ('p'), atau muktamad ('f')"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "programme": "Programme",
+        "actual_expenditure_rm": "Actual Expenditure (RM)",
+        "status_data": "Status"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "programme": "Program",
+        "actual_expenditure_rm": "Perbelanjaan Sebenar (RM)",
+        "status_data": "Status"
+    },
+    "related_datasets": []
+}

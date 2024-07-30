@@ -1,0 +1,99 @@
+{
+    "title_en": "Revenue of Assessment Tax by State",
+    "title_ms": "Hasil Cukai Pentaksiran mengikur Negeri",
+    "title_sort": 11,
+    "description_en": "Revenue of assessment tax, broken down by state",
+    "description_ms": "Hasil cukai pentaksiran, dengan pecahan mengikut negeri",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2021",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/assessment_tax_revenue_state.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/assessment_tax_revenue_state.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "NATIONAL"
+    ],
+    "demography": [],
+    "dataset_begin": 2019,
+    "dataset_end": 2021,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+        },
+        {
+            "name": "revenue_of_assessment_tax",
+            "title_en": "Revenue of Assessment Tax (NULL)",
+            "title_ms": "Hasil Cukai Pentaksiran (NULL)",
+            "description_en": "[Float] The total revenue generated from the assessment tax, measured in (NULL)",
+            "description_ms": "[Apung] Jumlah hasil yang dijana daripada cukai pentaksiran, diukur dalam (NULL)"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "revenue_of_assessment_tax": "Revenue of Assessment Tax (NULL)"
+    },
+    "translations_ms": {
+        "date": "Date",
+        "state": "State",
+        "revenue_of_assessment_tax": "Hasil Cukai Pentaksiran (NULL)"
+    },
+    "related_datasets": []
+}

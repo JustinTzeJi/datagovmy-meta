@@ -1,0 +1,136 @@
+{
+    "title_en": "Number of Healthcare Staff by Facility, Department, Staf Type, & District",
+    "title_ms": "Bilangan Kakitangan Kesihatan Mengikut Fasiliti, Jabatan, Jenis Staf, & Daerah",
+    "title_sort": 4,
+    "description_en": "Number of healthcare staff, broken down by facility type, department type, staff type, and district",
+    "description_ms": "Bilangan kakitangan kesihatan mengikut fasiliti, jabatan, kakitangan, dan daerah.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/healthcare_staff_district.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/healthcare_staff_district.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2014,
+    "dataset_end": 2020,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "tarikh",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "negeri",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+        },
+        {
+            "name": "daerah",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+            "description_ms": "[Kategori] Salah satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+        },
+        {
+            "name": "agensi",
+            "title_en": "Agency",
+            "title_ms": "Agensi",
+            "description_en": "[Categorical] The type of agency managing the healthcare staff. Either government ('Kerajaan'), or private ('Swasta').",
+            "description_ms": "[Kategori] Jenis agensi yang menguruskan kakitangan kesihatan. Sama ada kerajaan ('Kerajaan') atau swasta ('Swasta')."
+        },
+        {
+            "name": "kategori",
+            "title_en": "Category",
+            "title_ms": "Kategori",
+            "description_en": "[Categorical] The category of healthcare staff. Either doctor ('Doktor') or nurse ('Jururawat')",
+            "description_ms": "[Kategori] Kategori kakitangan kesihatan. Sama ada doktor ('Doktor') atau jururawat ('Jururawat')"
+        },
+        {
+            "name": "jenis_staf",
+            "title_en": "Staff Type",
+            "title_ms": "Jenis Staf",
+            "description_en": "[String] The specific type of staff within the staff category, such as dentist ('Doktor Gigi'), nurse ('Jururawat'), etc.",
+            "description_ms": "[Rentetan] Jenis kakitangan spesifik dalam kategori kakitangan. Sama ada doktor gigi ('Doktor Gigi') atau jururawat ('Jururawat'), dan lain-lain."
+        },
+        {
+            "name": "bilangan",
+            "title_en": "Number of Staff",
+            "title_ms": "Bilangan Kakitangan",
+            "description_en": "[Float] The number of healthcare staff",
+            "description_ms": "[Apung] Bilangan kakitangan kesihatan"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "tarikh": "Date",
+        "negeri": "State",
+        "daerah": "District",
+        "agensi": "Agency",
+        "kategori": "Category",
+        "jenis_staf": "Staff Type",
+        "bilangan": "Number of Staff"
+    },
+    "translations_ms": {
+        "tarikh": "Tarikh",
+        "negeri": "Negeri",
+        "daerah": "Daerah",
+        "agensi": "Agensi",
+        "kategori": "Kategori",
+        "jenis_staf": "Jenis Staf",
+        "bilangan": "Bilangan Staf"
+    },
+    "related_datasets": []
+}

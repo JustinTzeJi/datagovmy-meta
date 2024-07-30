@@ -1,0 +1,127 @@
+{
+    "title_en": "Number of Crop Production by Type and District",
+    "title_ms": "Bilangan Hasil Tanaman Mengikut Negeri & Daerah",
+    "title_sort": 3,
+    "description_en": "Number of crop production, broken down by type of crops, state, and district",
+    "description_ms": "Bilangan hasil tanaman, mengikut pecahan jenis tanaman, negeri, dan daerah.",
+    "exclude_openapi": false,
+    "manual_trigger": "na",
+    "data_as_of": "2022",
+    "last_updated": "2024-07-25 00:00",
+    "next_update": "\u2014",
+    "methodology_en": "",
+    "methodology_ms": "",
+    "caveat_en": "\u2014",
+    "caveat_ms": "\u2014",
+    "publication_en": "\u2014",
+    "publication_ms": "\u2014",
+    "link_parquet": "https://storage.dosm.gov.my/odin/crops_prod_district.parquet",
+    "link_csv": "https://storage.dosm.gov.my/odin/crops_prod_district.csv",
+    "frequency": "YEARLY",
+    "geography": [
+        "STATE",
+        "DISTRICT"
+    ],
+    "demography": [],
+    "dataset_begin": 2016,
+    "dataset_end": 2022,
+    "data_source": [
+        "DOSM"
+    ],
+    "data_source_granular": [
+    ],
+    "site_category": [
+        {
+            "site": "datagovmy",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        },
+        {
+            "site": "opendosm",
+            "category_en": "Statistical Indicators",
+            "category_ms": "Indikator Statistik",
+            "category_sort": 100,
+            "subcategory_en": "ODIN Indicators",
+            "subcategory_ms": "Penunjuk ODIN",
+            "subcategory_sort": 40
+        }
+    ],
+    "fields": [
+        {
+            "name": "date",
+            "title_en": "Date",
+            "title_ms": "Tarikh",
+            "description_en": "[Date] The date in YYYY-MM-DD format, with MM-DD set to 01-01 since the data is at annual frequency",
+            "description_ms": "[Tarikh] Tarikh dalam format YYYY-MM-DD, dengan MM-DD ditetapkan sebagai 01-01 kerana data berfrekuensi tahunan"
+        },
+        {
+            "name": "state",
+            "title_en": "State",
+            "title_ms": "Negeri",
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+        },
+        {
+            "name": "district",
+            "title_en": "District",
+            "title_ms": "Daerah",
+            "description_en": "[Categorical] One of 160 administrative districts, including the 4 states (Perlis and the 3 Federal Territories) which do not have subdivisions",
+            "description_ms": "[Kategori] Salah satu daripada 160 daerah pentadbiran, termasuk 4 negeri (Perlis dan 3 Wilayah Persekutuan) yang tidak dipecahkan lagi"
+        },
+        {
+            "name": "type_of_crops",
+            "title_en": "Type of Crops",
+            "title_ms": "Jenis Tanaman",
+            "description_en": "[Categorical] The category of crops grown",
+            "description_ms": "[Kategori] Kategori tanaman yang ditanam"
+        },
+        {
+            "name": "species",
+            "title_en": "Species",
+            "title_ms": "Spesis",
+            "description_en": "[String] The specific species of the crops",
+            "description_ms": "[Rentetan] Spesies khusus tanaman"
+        },
+        {
+            "name": "value",
+            "title_en": "NULL",
+            "title_ms": "NULL",
+            "description_en": "[Float] NULL",
+            "description_ms": "[Apung] NULL"
+        }
+    ],
+    "dataviz": [
+        {
+            "dataviz_id": "table",
+            "title_en": "Table",
+            "title_ms": "Jadual",
+            "chart_type": "TABLE",
+            "config": {
+                "precision": 0,
+                "filter_columns": [],
+                "freeze_columns": []
+            }
+        }
+    ],
+    "translations_en": {
+        "date": "Date",
+        "state": "State",
+        "district": "District",
+        "type_of_crops": "Type Of Crops",
+        "species": "Species",
+        "value": "Value"
+    },
+    "translations_ms": {
+        "date": "Tarikh",
+        "state": "Negeri",
+        "district": "Daerah",
+        "type_of_crops": "Jenis Tanaman",
+        "species": "Spesis",
+        "value": "Jumlah"
+    },
+    "related_datasets": []
+}
