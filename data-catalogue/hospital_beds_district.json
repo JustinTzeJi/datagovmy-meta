@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "",
     "methodology_ms": "",
@@ -62,8 +62,8 @@
             "name": "negeri",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
         },
         {
             "name": "daerah",

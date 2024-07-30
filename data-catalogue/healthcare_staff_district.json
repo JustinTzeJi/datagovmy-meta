@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "",
     "methodology_ms": "",
@@ -62,8 +62,8 @@
             "name": "negeri",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
         },
         {
             "name": "daerah",
@@ -76,7 +76,7 @@
             "name": "agensi",
             "title_en": "Agency",
             "title_ms": "Agensi",
-            "description_en": "[Categorical] The type of agency managing the healthcare staff. Either government ('Kerajaan'), or private ('Swasta').",
+            "description_en": "[Categorical] The type of agency managing the healthcare staff. Either government ('Kerajaan') or private ('Swasta').",
             "description_ms": "[Kategori] Jenis agensi yang menguruskan kakitangan kesihatan. Sama ada kerajaan ('Kerajaan') atau swasta ('Swasta')."
         },
         {
@@ -91,7 +91,7 @@
             "title_en": "Staff Type",
             "title_ms": "Jenis Staf",
             "description_en": "[String] The specific type of staff within the staff category, such as dentist ('Doktor Gigi'), nurse ('Jururawat'), etc.",
-            "description_ms": "[Rentetan] Jenis kakitangan spesifik dalam kategori kakitangan. Sama ada doktor gigi ('Doktor Gigi') atau jururawat ('Jururawat'), dan lain-lain."
+            "description_ms": "[Rentetan] Jenis kakitangan spesifik dalam kategori kakitangan, seperti doktor gigi ('Doktor Gigi'), jururawat ('Jururawat'), dan lain-lain."
         },
         {
             "name": "bilangan",

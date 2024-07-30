@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "Data source from Finance Division, Ministry of Education Malaysia.",
     "methodology_ms": "Sumber data dari Bahagian Kewangan, Kementerian Pendidikan Malaysia.",
@@ -61,8 +61,8 @@
             "name": "programme",
             "title_en": "Programme",
             "title_ms": "Program",
-            "description_en": "[String] The name of the educational or professional development programme",
-            "description_ms": "[Rentetan] Nama program pendidikan atau pembangunan profesional"
+            "description_en": "[String] The name of the educational operation or professional development programme",
+            "description_ms": "[Rentetan] Nama program operasi pendidikan atau pembangunan profesional"
         },
         {
             "name": "actual_expenditure_rm",

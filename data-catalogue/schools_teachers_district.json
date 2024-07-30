@@ -1,13 +1,13 @@
 {
-    "title_en": "Number of schools by Stage, Type & District",
-    "title_ms": "Bilangan Sekolah mengikut Peringkat, Jenis, & Daerah",
+    "title_en": "Number of Teaching Staff by Stage, Type & District",
+    "title_ms": "Bilangan Guru mengikut Peringkat, Jenis, & Daerah",
     "title_sort": 8,
-    "description_en": "Number of schools, broken down by stage, type and district.",
-    "description_ms": "Bilangan sekolah, mengikut pecahan peringkat, jenis, dan daerah.",
+    "description_en": "Number of teaching stuff, broken down by stage, type and district.",
+    "description_ms": "Bilangan guru, mengikut pecahan peringkat, jenis, dan daerah.",
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "",
     "methodology_ms": "",
@@ -62,8 +62,8 @@
             "name": "negeri",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
         },
         {
             "name": "daerah",
@@ -97,15 +97,15 @@
             "name": "jantina",
             "title_en": "Jantina",
             "title_ms": "Sex",
-            "description_en": "[Float] Either male ('Lelaki'), female ('Perempuan'), or total of both ('Total')",
-            "description_ms": "[Apung] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau jumlah kedua-duanya ('Total')"
+            "description_en": "[Categorical] Either male ('Lelaki'), female ('Perempuan'), or total of both ('Total')",
+            "description_ms": "[Kategori] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau jumlah kedua-duanya ('Total')"
         },
         {
             "name": "bilangan",
             "title_en": "No. of Teachers",
             "title_ms": "Bilangan Guru",
-            "description_en": "[Float] The number of teachers",
-            "description_ms": "[Apung] Bilangan guru"
+            "description_en": "[Integer] The number of teachers",
+            "description_ms": "[Integer] Bilangan guru"
         }
     ],
     "dataviz": [
@@ -129,7 +129,7 @@
         "jenis_sekolah": "School Type",
         "peringkat_sekolah": "Stage",
         "jantina": "Sex",
-        "bilangan": "No. of Students"
+        "bilangan": "No. of Teachers"
     },
     "translations_ms": {
         "tarikh": "Date",
@@ -139,7 +139,7 @@
         "jenis_sekolah": "Jenis Sekolah",
         "peringkat_sekolah": "Peringkat",
         "jantina": "Jantina",
-        "bilangan": "Bilangan Pelajar"
+        "bilangan": "Bilangan Guru"
     },
     "related_datasets": []
 }

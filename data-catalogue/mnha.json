@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2021",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "Data source from Ministry of Health (MOH)",
     "methodology_ms": "Sumber data dari Kementerian Kesihatan Malaysia (KKM)",
@@ -76,8 +76,8 @@
             "name": "expenditure_rm_million",
             "title_en": "Expenditure (RM Million)",
             "title_ms": "Perbelanjaan (RM Juta)",
-            "description_en": "[Integer] The amount of expenditure in million Ringgit Malaysia (RM) for the specified provider or function",
-            "description_ms": "[Integer] Jumlah perbelanjaan dalam juta Ringgit Malaysia (RM) untuk pengelola atau aktiviti yang dinyatakan"
+            "description_en": "[Integer] The amount of expenditure in million Ringgit Malaysia (RM)",
+            "description_ms": "[Integer] Jumlah perbelanjaan dalam juta Ringgit Malaysia (RM)"
         },
         {
             "name": "percentage",

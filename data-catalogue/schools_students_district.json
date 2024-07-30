@@ -7,7 +7,7 @@
     "exclude_openapi": false,
     "manual_trigger": "na",
     "data_as_of": "2022",
-    "last_updated": "2024-07-25 00:00",
+    "last_updated": "2024-07-30 00:00",
     "next_update": "\u2014",
     "methodology_en": "",
     "methodology_ms": "",
@@ -17,6 +17,7 @@
     "publication_ms": "\u2014",
     "link_parquet": "https://storage.dosm.gov.my/odin/schools_students_district.parquet",
     "link_csv": "https://storage.dosm.gov.my/odin/schools_students_district.csv",
+    "link_preview": "https://storage.dosm.gov.my/odin/schools_students_district_preview.parquet",
     "frequency": "YEARLY",
     "geography": [
         "STATE",
@@ -62,8 +63,8 @@
             "name": "negeri",
             "title_en": "State",
             "title_ms": "Negeri",
-            "description_en": "[Categorical] One of the 13 states or 3 federal territories, or the entire Malaysia",
-            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan, atau keseluruhan Malaysia"
+            "description_en": "[Categorical] One of the 13 states or 3 federal territories",
+            "description_ms": "[Kategori] Salah satu daripada 13 negeri atau 3 wilayah persekutuan"
         },
         {
             "name": "daerah",
@@ -97,15 +98,15 @@
             "name": "jantina",
             "title_en": "Jantina",
             "title_ms": "Sex",
-            "description_en": "[Float] Either male ('Lelaki'), female ('Perempuan'), or total of both ('Total')",
-            "description_ms": "[Apung] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau jumlah kedua-duanya ('Total')"
+            "description_en": "[Float] Either male ('Lelaki'), female ('Perempuan'), or both ('Total')",
+            "description_ms": "[Apung] Sama ada lelaki ('Lelaki'), perempuan ('Perempuan'), atau kedua-duanya ('Total')"
         },
         {
             "name": "bilangan",
             "title_en": "No. of Students",
             "title_ms": "Bilangan Pelajar",
-            "description_en": "[Float] The number of students",
-            "description_ms": "[Apung] Bilangan pelajar"
+            "description_en": "[Integer] The number of students",
+            "description_ms": "[Integer] Bilangan pelajar"
         }
     ],
     "dataviz": [
