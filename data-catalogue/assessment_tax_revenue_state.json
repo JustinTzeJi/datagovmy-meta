@@ -66,10 +66,10 @@
         },
         {
             "name": "revenue_of_assessment_tax",
-            "title_en": "Revenue of Assessment Tax (NULL)",
-            "title_ms": "Hasil Cukai Pentaksiran (NULL)",
-            "description_en": "[Float] The total revenue generated from the assessment tax, measured in (NULL)",
-            "description_ms": "[Apung] Jumlah hasil yang dijana daripada cukai pentaksiran, diukur dalam (NULL)"
+            "title_en": "Revenue of Assessment Tax (RM million)",
+            "title_ms": "Hasil Cukai Pentaksiran (RM juta)",
+            "description_en": "[Float] The total revenue generated from the assessment tax, measured in million Malaysia Ringgit",
+            "description_ms": "[Apung] Jumlah hasil yang dijana daripada cukai pentaksiran, diukur dalam Ringgit Malaysia juta"
         }
     ],
     "dataviz": [
@@ -88,12 +88,12 @@
     "translations_en": {
         "date": "Date",
         "state": "State",
-        "revenue_of_assessment_tax": "Revenue of Assessment Tax (NULL)"
+        "revenue_of_assessment_tax": "Revenue of Assessment Tax (RM million)"
     },
     "translations_ms": {
         "date": "Date",
         "state": "State",
-        "revenue_of_assessment_tax": "Hasil Cukai Pentaksiran (NULL)"
+        "revenue_of_assessment_tax": "Hasil Cukai Pentaksiran (RM juta)"
     },
     "related_datasets": []
 }

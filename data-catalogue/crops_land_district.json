@@ -102,11 +102,11 @@
             "description_ms": "[Rentetan] Spesies khusus tanaman"
         },
         {
-            "name": "value",
-            "title_en": "NULL",
-            "title_ms": "NULL",
-            "description_en": "[Float] NULL",
-            "description_ms": "[Apung] NULL"
+            "name": "value_hectar",
+            "title_en": "Total Area (hectares)",
+            "title_ms": "Jumlah Keluasan (hektar)",
+            "description_en": "[Float] The total area of land use, measured in hectares",
+            "description_ms": "[Apung] Jumlah keluasan tanah, diukur dalam hektar"
         }
     ],
     "dataviz": [
@@ -130,7 +130,7 @@
         "land_use": "Land Use",
         "type_of_crops": "Type Of Crops",
         "species": "Species",
-        "value": "Value"
+        "value_hectar": "Total Area (hectares)"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -140,7 +140,7 @@
         "land_use": "Tanah",
         "type_of_crops": "Jenis Tanaman",
         "species": "Spesis",
-        "value": "Jumlah"
+        "value_hectar": "Jumlah keluasan (hektar)"
     },
     "related_datasets": []
 }

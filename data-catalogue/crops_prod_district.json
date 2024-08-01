@@ -88,11 +88,11 @@
             "description_ms": "[Rentetan] Spesies khusus tanaman"
         },
         {
-            "name": "value",
-            "title_en": "NULL",
-            "title_ms": "NULL",
-            "description_en": "[Float] NULL",
-            "description_ms": "[Apung] NULL"
+            "name": "value_tonnes",
+            "title_en": "Total (tonnes)",
+            "title_ms": "Jumlah (tan)",
+            "description_en": "[Float] The total number of crops production, measured in tonnes",
+            "description_ms": "[Apung] Jumlah bilangan hasil tanaman, diukur dalam tan"
         }
     ],
     "dataviz": [
@@ -114,7 +114,7 @@
         "district": "District",
         "type_of_crops": "Type Of Crops",
         "species": "Species",
-        "value": "Value"
+        "value_tonnes": "Total (tonnes)"
     },
     "translations_ms": {
         "date": "Tarikh",
@@ -122,7 +122,7 @@
         "district": "Daerah",
         "type_of_crops": "Jenis Tanaman",
         "species": "Spesis",
-        "value": "Jumlah"
+        "value_tonnes": "Jumlah (tan)"
     },
     "related_datasets": []
 }
