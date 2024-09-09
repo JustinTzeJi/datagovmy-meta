@@ -1,0 +1,11 @@
+{
+    "dashboard_name": "dashboards",
+    "data_last_updated": "2024-09-09 00:01",
+    "route": "",
+    "sites": [
+        "datagovmy"
+    ],
+    "manual_trigger": "2024-09-09 02:48:40.342047",
+    "required_params": [],
+    "optional_params": []
+}
